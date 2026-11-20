@@ -10,6 +10,9 @@ root = Path(__file__).resolve().parents[1]
 dest = root / ".private/corresponding-sources"
 dest.mkdir(parents=True, exist_ok=True)
 sources = {
+    "FFmpeg-8c7ef49002-windows-source.tar.gz": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/8c7ef49002",
+    "FFmpeg-Builds-7f2a6b1050d3-source.tar.gz": "https://codeload.github.com/FFmpeg-Builds/FFmpeg-Builds/tar.gz/7f2a6b1050d302144de8366afa37a75e46f326aa",
+    "ffmpeg-7.1.1.tar.xz": "https://ffmpeg.org/releases/ffmpeg-7.1.1.tar.xz",
     "youtubedl-android-0.18.1.zip": "https://codeload.github.com/yausername/youtubedl-android/zip/refs/tags/0.18.1",
     "yt-dlp-2025.11.12.tar.gz": "https://codeload.github.com/yt-dlp/yt-dlp/tar.gz/335653be82d5ef999cfc2879d005397402eebec1",
     "gdbm-1.26.tar.gz": "https://mirrors.kernel.org/gnu/gdbm/gdbm-1.26.tar.gz",

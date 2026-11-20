@@ -4,9 +4,11 @@ import os
 from pathlib import Path
 import secrets
 import subprocess
+import sys
 from fbmd.security import _dpapi
 
 root = Path(__file__).resolve().parents[1]
+subprocess.run([sys.executable, str(root/'tools/prepare_android_native.py')],check=True)
 private = root / ".private/signing"
 private.mkdir(parents=True, exist_ok=True)
 password_file = private / "password.dpapi"

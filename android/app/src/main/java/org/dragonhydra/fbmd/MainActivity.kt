@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
     private lateinit var db: QueueDb
     private var message by mutableStateOf("Paste one accessible video URL per line. Files download on this device.")
     private var input by mutableStateOf("")
+    private var nativeStatus by mutableStateOf("Native engines: checking bundled runtime…")
     private val export = registerForActivityResult(ActivityResultContracts.OpenDocumentTree()) { uri ->
         if (uri != null) {
             contentResolver.takePersistableUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
@@ -52,6 +53,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         db = QueueDb(this)
+        Thread { NativeMedia.ensureReady(this); runOnUiThread { nativeStatus=NativeMedia.report(this) } }.start()
         if (intent.action == Intent.ACTION_SEND) input = intent.getStringExtra(Intent.EXTRA_TEXT) ?: ""
         if (Build.VERSION.SDK_INT >= 33) notifications.launch(Manifest.permission.POST_NOTIFICATIONS)
         setContent {
@@ -80,7 +82,7 @@ class MainActivity : ComponentActivity() {
             Text("FB MULTIENGINE",style=MaterialTheme.typography.headlineSmall)
             Text("Local media · persistent queue",color=MaterialTheme.colorScheme.primary)
             Row(horizontalArrangement=Arrangement.spacedBy(6.dp)) {
-                listOf("Queue","Accounts","Help").forEachIndexed { i,s -> FilterChip(selected=tab==i,onClick={tab=i},label={Text(s)}) }
+                listOf("Queue","Accounts","Engines","Help").forEachIndexed { i,s -> FilterChip(selected=tab==i,onClick={tab=i},label={Text(s)}) }
             }
             when(tab) {
                 0 -> {
@@ -125,12 +127,19 @@ class MainActivity : ComponentActivity() {
                     Text("Browser session capture and bulk profile discovery are desktop-only. Facebook Login in embedded WebViews is not supported.")
                     Spacer(Modifier.weight(1f))
                 }
+                2 -> {
+                    Text("Native media engines",style=MaterialTheme.typography.titleLarge)
+                    Text(nativeStatus,style=MaterialTheme.typography.bodySmall)
+                    Text("READY requires this device to execute the bundled FFmpeg, merge the included synthetic audio/video fixture, inspect both tracks and decode the result. Files and credentials stay local.")
+                    Text("Python and yt-dlp are embedded. This APK contains ARM64 and x86_64 libraries; architecture presence alone does not establish runtime compatibility.")
+                    Spacer(Modifier.weight(1f))
+                }
                 else -> {
                     Text("Use a public media link or an accessible Facebook video / Reel. Share a link from your browser to FB MultiEngine, add it, then tap Start.")
                     Text("Downloads run in a foreground service on this device. The queue survives app restarts. Resume restarts unsupported servers from byte zero; stable HTTP ranges retain progress.")
                     Text("Save to folder uses Android's folder picker to copy completed files. Internal downloads are removed when the app is uninstalled. Export them first.")
-                    Text("This alpha uses progressive audio+video formats on Android. DASH merging, browser session discovery and quality selection are desktop-only. No remote downloader service receives your links or credentials.")
-                    Text("Version 0.1.0-alpha.1 · native ARM64 / x86_64 engine")
+                    Text("Bundled FFmpeg enables separate audio/video merging only after an on-device runtime test passes. Browser session discovery and quality selection are desktop-only. No remote downloader service receives your links or credentials.")
+                    Text("Version 0.2.0-alpha.1 · native ARM64 / x86_64 engine")
                     OutlinedButton(onClick={startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/chatgptopenaiagi/FB-MULTIENGINE-DOWNLOADER")))}){Text("Project and evidence")}
                     Spacer(Modifier.weight(1f))
                 }

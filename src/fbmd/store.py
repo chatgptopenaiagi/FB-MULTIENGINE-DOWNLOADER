@@ -63,10 +63,11 @@ class Store:
                 "resolution": "TEXT NOT NULL DEFAULT ''",
                 "content_type": "TEXT NOT NULL DEFAULT ''",
                 "rate": "REAL NOT NULL DEFAULT 0",
+                "media_info": "TEXT NOT NULL DEFAULT '{}'",
             }.items():
                 if name not in columns:
                     db.execute(f"ALTER TABLE jobs ADD COLUMN {name} {definition}")
-            db.execute("PRAGMA user_version=1")
+            db.execute("PRAGMA user_version=2")
 
     @contextmanager
     def connection(self):
@@ -109,7 +110,7 @@ class Store:
             return [
                 dict(r)
                 for r in db.execute(
-                    "SELECT id,display,engine,status,downloaded,total,attempts,error,path,sha256,created,updated,quality,title,resolution,content_type,rate FROM jobs ORDER BY id DESC"
+                    "SELECT id,display,engine,status,downloaded,total,attempts,error,path,sha256,created,updated,quality,title,resolution,content_type,rate,media_info FROM jobs ORDER BY id DESC"
                 )
             ]
 
@@ -139,6 +140,7 @@ class Store:
             "resolution",
             "content_type",
             "rate",
+            "media_info",
         }
         if not fields.keys() <= allowed:
             raise ValueError("Invalid job field")

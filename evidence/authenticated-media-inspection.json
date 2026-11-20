@@ -1,0 +1,60 @@
+[
+  {
+    "file": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\authenticated-acceptance\\job-000002-23a2826c0679\\media.mp4",
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": 19.721723,
+    "streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "sample_rate": null,
+        "channels": null,
+        "start_time": "0.000000",
+        "duration": "19.666667"
+      },
+      {
+        "index": 1,
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "sample_rate": "44100",
+        "channels": 2,
+        "start_time": "0.000000",
+        "duration": "19.721723"
+      }
+    ]
+  },
+  {
+    "file": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\authenticated-acceptance\\job-000003-bcfd67239155\\media.mp4",
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": 16.42839,
+    "streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "sample_rate": null,
+        "channels": null,
+        "start_time": "0.000000",
+        "duration": "16.333333"
+      },
+      {
+        "index": 1,
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "sample_rate": "44100",
+        "channels": 2,
+        "start_time": "0.000000",
+        "duration": "16.428390"
+      }
+    ]
+  }
+]

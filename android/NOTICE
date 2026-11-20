@@ -8,4 +8,7 @@ code outside this directory remains under the repository's MIT license.
 The release includes corresponding application and youtubedl-android source.
 The native Python, yt-dlp, QuickJS and Android/Java dependencies retain their
 own licenses. See docs/THIRD_PARTY.md and the upstream source bundle.
-No FFmpeg Android library is included.
+FFmpeg/FFprobe and required Android native libraries from youtubedl-android
+0.18.1 are included. This FFmpeg configuration enables GPL components.
+Native binaries retain upstream licenses. Matching source archives and
+Termux build recipes/patches accompany the release source bundle.

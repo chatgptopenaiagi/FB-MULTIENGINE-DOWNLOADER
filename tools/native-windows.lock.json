@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "provider": "FFmpeg-Builds/FFmpeg-Builds",
+  "release": "autobuild-2026-11-19-12-39",
+  "build_commit": "7f2a6b1050d302144de8366afa37a75e46f326aa",
+  "asset": "ffmpeg-n9.0.2-58-g8c7ef49002-win64-lgpl-shared-9.0.zip",
+  "url": "https://github.com/FFmpeg-Builds/FFmpeg-Builds/releases/download/autobuild-2026-11-19-12-39/ffmpeg-n9.0.2-58-g8c7ef49002-win64-lgpl-shared-9.0.zip",
+  "sha256": "1fdb837def412ad7cc019874b6310156f40179bd30df58d041a82413f800a331",
+  "bytes": 77746112,
+  "ffmpeg_commit": "8c7ef49002"
+}

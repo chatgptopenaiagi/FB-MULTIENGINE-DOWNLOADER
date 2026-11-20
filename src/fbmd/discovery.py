@@ -103,11 +103,32 @@ def discover(store, url, engine="playwright", rounds=5, headless=True):
                     browser.close()
         elif engine == "selenium":
             from selenium import webdriver
+            from .native import application_directory
 
-            options = webdriver.EdgeOptions()
-            if headless:
-                options.add_argument("--headless=new")
-            driver = webdriver.Edge(options=options)
+            root = application_directory()
+            bundle = root / "engines/browser"
+            driver_path = root / "engines/discovery/chromedriver.exe"
+            if not bundle.is_dir():
+                bundle = root / ".toolchain/playwright"
+                driver_path = root / ".toolchain/discovery/chromedriver.exe"
+            if bundle.is_dir():
+                from selenium.webdriver.chrome.service import Service
+
+                browsers = list(bundle.rglob("chrome.exe"))
+                if len(browsers) != 1 or not driver_path.is_file():
+                    raise RuntimeError("Matching bundled ChromeDriver is missing")
+                options = webdriver.ChromeOptions()
+                options.binary_location = str(browsers[0])
+                if headless:
+                    options.add_argument("--headless=new")
+                driver = webdriver.Chrome(
+                    service=Service(str(driver_path)), options=options
+                )
+            else:
+                options = webdriver.EdgeOptions()
+                if headless:
+                    options.add_argument("--headless=new")
+                driver = webdriver.Edge(options=options)
             try:
                 driver.set_page_load_timeout(45)
                 state = store.vault.get("browser", {})
@@ -171,6 +192,25 @@ def discover(store, url, engine="playwright", rounds=5, headless=True):
 
 
 def launch_browser(playwright, headless):
+    from .native import application_directory
+    import sys
+
+    roots = [
+        application_directory() / "engines/browser",
+        application_directory() / ".toolchain/playwright",
+    ]
+    for root in roots:
+        if root.is_dir():
+            executables = list(root.rglob("chrome.exe"))
+            if len(executables) != 1:
+                raise RuntimeError("Bundled browser is incomplete or ambiguous")
+            return playwright.chromium.launch(
+                executable_path=str(executables[0]), headless=headless
+            )
+    if getattr(sys, "frozen", False):
+        raise RuntimeError(
+            "Bundled browser missing; repair the application installation"
+        )
     try:
         return playwright.chromium.launch(channel="msedge", headless=headless)
     except Exception:

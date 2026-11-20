@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "display": "https://www.facebook.com/reel/4130607413898579/",
+      "engine": "yt-dlp",
+      "status": "complete",
+      "downloaded": 6452361,
+      "total": 6452361,
+      "attempts": 1,
+      "error": "",
+      "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\real-best-media\\job-000001-23a2826c0679\\media.mp4",
+      "sha256": "e3ab4bf0e4d6169fd5440dcf8cdbb689d603a6ffb6839f7621202851801e03b6",
+      "created": 1795176962.4853697,
+      "updated": 1795176972.2016644,
+      "quality": "best",
+      "title": "43 reactions | The Flint Mind on Reels",
+      "resolution": "720x1280",
+      "content_type": "video/mp4",
+      "rate": 86314.2246295341,
+      "media_info": "{\"format\": \"mov,mp4,m4a,3gp,3g2,mj2\", \"duration\": 19.666667, \"streams\": [{\"index\": 0, \"codec_type\": \"video\", \"codec_name\": \"vp9\", \"width\": 720, \"height\": 1280, \"sample_rate\": null, \"channels\": null, \"start_time\": \"0.000000\", \"duration\": \"19.666667\"}, {\"index\": 1, \"codec_type\": \"audio\", \"codec_name\": \"aac\", \"width\": null, \"height\": null, \"sample_rate\": \"44100\", \"channels\": 2, \"start_time\": \"0.000000\", \"duration\": \"19.607029\"}]}"
+    }
+  ]
+}

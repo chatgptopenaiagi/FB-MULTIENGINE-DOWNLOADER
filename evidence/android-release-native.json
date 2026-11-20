@@ -1,0 +1,13 @@
+{
+  "abi": "x86_64",
+  "version": "ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers",
+  "status": "READY",
+  "local_merge_test": "PASS",
+  "video": true,
+  "audio": true,
+  "duration_us": 3023219,
+  "sha256": "f7c413e89d39ac6853dc19c00cdecff41adbc08811845d7ed64c567fbcb71f27",
+  "release_apk_sha256": "9cec1a93ed968f8c4554868a6e50817713af888b7eed8a41e934ce26287c8986",
+  "reinstall_reopen_and_duplicate_check": "PASS",
+  "physical_arm64": "NOT_TESTED"
+}

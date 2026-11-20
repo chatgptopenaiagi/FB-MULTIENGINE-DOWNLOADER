@@ -1,0 +1,339 @@
+{
+  "status": "PASS",
+  "source_venv_physically_unavailable": true,
+  "path_used": "C:\\WINDOWS\\System32",
+  "application": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\FBMD.exe",
+  "executable_sha256": "72618546f09e72fe9c2587db8a88e5377a4f63017c2525d3e2d258817e5825a2",
+  "checks": {
+    "engines": {
+      "application_directory": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable",
+      "frozen": true,
+      "engines": [
+        {
+          "name": "FFmpeg / FFprobe",
+          "source": "bundled",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffmpeg.exe",
+          "ffprobe_path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffprobe.exe",
+          "status": "READY",
+          "version": "ffmpeg version n9.0.2-58-g8c7ef49002-20261119 Copyright (c) 2000-2026 the FFmpeg developers",
+          "architecture": "x64",
+          "capabilities": [
+            "H.264 decode",
+            "AAC decode",
+            "MP4 inspect",
+            "local stream-copy merge",
+            "decode integrity check",
+            "HLS demux/remux",
+            "DASH demux/remux",
+            "HTTPS transport"
+          ],
+          "diagnostic": "Both executables and required codec/container capabilities passed.",
+          "ffprobe_version": "ffprobe version n9.0.2-58-g8c7ef49002-20261119 Copyright (c) 2007-2026 the FFmpeg developers",
+          "configuration": "configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-lcms2 --enable-vulkan --enable-libdav1d --enable-libvorbis --enable-librav1e --enable-librsvg --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-liblcevc-dec --enable-opencl --enable-amf --enable-libaom --disable-avisynth --enable-chromaprint --disable-libdavs2 --disable-libdvdread --disable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --disable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribb24 --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-liboapv --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --disable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-vapoursynth --disable-libvidstab --enable-libvvenc --disable-whisper --disable-libx264 --disable-libx265 --disable-libxavs2 --disable-libxvid --enable-libzimg --disable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20261119",
+          "codec_lines": [
+            "V....D av1                  Alliance for Open Media AV1",
+            "VFS..D h264                 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "VFS..D hevc                 HEVC (High Efficiency Video Coding)",
+            "VFS..D vp9                  Google VP9",
+            "A....D aac                  AAC (Advanced Audio Coding)",
+            "A....D opus                 Opus"
+          ]
+        },
+        {
+          "name": "yt-dlp",
+          "version": "2026.10.26",
+          "architecture": "AMD64",
+          "source": "bundled",
+          "status": "INSTALLED",
+          "diagnostic": "Package metadata present; operational checks are reported separately."
+        },
+        {
+          "name": "Qt / PySide",
+          "version": "6.12.0",
+          "architecture": "AMD64",
+          "source": "bundled",
+          "status": "INSTALLED",
+          "diagnostic": "Package metadata present; operational checks are reported separately."
+        },
+        {
+          "name": "Playwright",
+          "version": "1.65.2",
+          "architecture": "AMD64",
+          "source": "bundled",
+          "status": "INSTALLED",
+          "diagnostic": "Package metadata present; operational checks are reported separately."
+        },
+        {
+          "name": "Selenium",
+          "version": "4.53.0",
+          "architecture": "AMD64",
+          "source": "bundled",
+          "status": "INSTALLED",
+          "diagnostic": "Package metadata present; operational checks are reported separately."
+        },
+        {
+          "name": "Python",
+          "version": "3.13.0",
+          "architecture": "AMD64",
+          "source": "bundled",
+          "status": "READY",
+          "diagnostic": "Current application runtime."
+        }
+      ]
+    },
+    "native": {
+      "status": "PASS",
+      "registry": {
+        "application_directory": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable",
+        "frozen": true,
+        "engines": [
+          {
+            "name": "FFmpeg / FFprobe",
+            "source": "bundled",
+            "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffmpeg.exe",
+            "ffprobe_path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffprobe.exe",
+            "status": "READY",
+            "version": "ffmpeg version n9.0.2-58-g8c7ef49002-20261119 Copyright (c) 2000-2026 the FFmpeg developers",
+            "architecture": "x64",
+            "capabilities": [
+              "H.264 decode",
+              "AAC decode",
+              "MP4 inspect",
+              "local stream-copy merge",
+              "decode integrity check",
+              "HLS demux/remux",
+              "DASH demux/remux",
+              "HTTPS transport"
+            ],
+            "diagnostic": "Both executables and required codec/container capabilities passed.",
+            "ffprobe_version": "ffprobe version n9.0.2-58-g8c7ef49002-20261119 Copyright (c) 2007-2026 the FFmpeg developers",
+            "configuration": "configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-version3 --disable-debug --enable-shared --disable-static --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-lcms2 --enable-vulkan --enable-libdav1d --enable-libvorbis --enable-librav1e --enable-librsvg --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-liblcevc-dec --enable-opencl --enable-amf --enable-libaom --disable-avisynth --enable-chromaprint --disable-libdavs2 --disable-libdvdread --disable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --disable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribb24 --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-liboapv --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --disable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-vapoursynth --disable-libvidstab --enable-libvvenc --disable-whisper --disable-libx264 --disable-libx265 --disable-libxavs2 --disable-libxvid --enable-libzimg --disable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20261119",
+            "codec_lines": [
+              "V....D av1                  Alliance for Open Media AV1",
+              "VFS..D h264                 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+              "VFS..D hevc                 HEVC (High Efficiency Video Coding)",
+              "VFS..D vp9                  Google VP9",
+              "A....D aac                  AAC (Advanced Audio Coding)",
+              "A....D opus                 Opus"
+            ]
+          },
+          {
+            "name": "yt-dlp",
+            "version": "2026.10.26",
+            "architecture": "AMD64",
+            "source": "bundled",
+            "status": "INSTALLED",
+            "diagnostic": "Package metadata present; operational checks are reported separately."
+          },
+          {
+            "name": "Qt / PySide",
+            "version": "6.12.0",
+            "architecture": "AMD64",
+            "source": "bundled",
+            "status": "INSTALLED",
+            "diagnostic": "Package metadata present; operational checks are reported separately."
+          },
+          {
+            "name": "Playwright",
+            "version": "1.65.2",
+            "architecture": "AMD64",
+            "source": "bundled",
+            "status": "INSTALLED",
+            "diagnostic": "Package metadata present; operational checks are reported separately."
+          },
+          {
+            "name": "Selenium",
+            "version": "4.53.0",
+            "architecture": "AMD64",
+            "source": "bundled",
+            "status": "INSTALLED",
+            "diagnostic": "Package metadata present; operational checks are reported separately."
+          },
+          {
+            "name": "Python",
+            "version": "3.13.0",
+            "architecture": "AMD64",
+            "source": "bundled",
+            "status": "READY",
+            "diagnostic": "Current application runtime."
+          }
+        ]
+      },
+      "separate_stream_merge": {
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": 3.0,
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 320,
+            "height": 180,
+            "sample_rate": null,
+            "channels": null,
+            "start_time": "0.000000",
+            "duration": "3.000000"
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "sample_rate": "44100",
+            "channels": 1,
+            "start_time": "0.000000",
+            "duration": "3.000000"
+          }
+        ]
+      },
+      "audio_video_start_difference": 0.0,
+      "hls_processing": {
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": 3.041814,
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 320,
+            "height": 180,
+            "sample_rate": null,
+            "channels": null,
+            "start_time": "0.023222",
+            "duration": "3.000000"
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "sample_rate": "44100",
+            "channels": 1,
+            "start_time": "0.000000",
+            "duration": "3.041814"
+          }
+        ]
+      },
+      "yt_dlp_split_stream_merge": {
+        "format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "duration": 3.0,
+        "streams": [
+          {
+            "index": 0,
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 320,
+            "height": 180,
+            "sample_rate": null,
+            "channels": null,
+            "start_time": "0.000000",
+            "duration": "3.000000"
+          },
+          {
+            "index": 1,
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "sample_rate": "44100",
+            "channels": 1,
+            "start_time": "0.000000",
+            "duration": "3.000000"
+          }
+        ]
+      },
+      "postprocessors": [
+        {
+          "processor": "Merger",
+          "status": "started"
+        },
+        {
+          "processor": "Merger",
+          "status": "finished"
+        },
+        {
+          "processor": "MoveFiles",
+          "status": "started"
+        },
+        {
+          "processor": "MoveFiles",
+          "status": "finished"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\native-fixture\\merged.mp4",
+          "bytes": 96679,
+          "sha256": "a08410a3712223f682efc1640c90b072b8db1b1854616e763ab551c885f035ab"
+        },
+        {
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\native-fixture\\hls-remux.mp4",
+          "bytes": 97615,
+          "sha256": "11aea966d6181302d70e0c9e8533b7a5f4c5b6139942355a4ab32f6473bbc88e"
+        },
+        {
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\native-fixture\\selected.mp4",
+          "bytes": 96679,
+          "sha256": "a08410a3712223f682efc1640c90b072b8db1b1854616e763ab551c885f035ab"
+        }
+      ],
+      "elapsed_seconds": 2.587
+    },
+    "gui": {
+      "status": "PASS",
+      "screens_rendered": 10,
+      "native_status": "READY",
+      "frozen": true
+    },
+    "facebook": {
+      "jobs": [
+        {
+          "id": 1,
+          "display": "https://www.facebook.com/reel/1195289147628387",
+          "engine": "yt-dlp",
+          "status": "complete",
+          "downloaded": 622802,
+          "total": 622802,
+          "attempts": 1,
+          "error": "",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\media\\job-000001-75c324103155\\media.mp4",
+          "sha256": "cc12fd22535bfa0d5f224e105c1c4abf3525cc4cf33501d1f7ed6c5c469123a2",
+          "created": 1795175332.8983722,
+          "updated": 1795175339.0511813,
+          "quality": "best",
+          "title": "9.9K views · 339 reactions | When your trying to help your partner out with an arrest and #FAAFO games begin. Let the “Slapathon” commence!! 👊👋 | Beast Camp Training",
+          "resolution": "",
+          "content_type": "video/mp4",
+          "rate": 281661.780392693,
+          "media_info": "{\"format\": \"mov,mp4,m4a,3gp,3g2,mj2\", \"duration\": 9.566667, \"streams\": [{\"index\": 0, \"codec_type\": \"video\", \"codec_name\": \"h264\", \"width\": 480, \"height\": 848, \"sample_rate\": null, \"channels\": null, \"start_time\": \"0.000000\", \"duration\": \"9.566667\"}]}"
+        }
+      ]
+    },
+    "reopened": {
+      "jobs": [
+        {
+          "id": 1,
+          "display": "https://www.facebook.com/reel/1195289147628387",
+          "engine": "yt-dlp",
+          "status": "complete",
+          "downloaded": 622802,
+          "total": 622802,
+          "attempts": 1,
+          "error": "",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\media\\job-000001-75c324103155\\media.mp4",
+          "sha256": "cc12fd22535bfa0d5f224e105c1c4abf3525cc4cf33501d1f7ed6c5c469123a2",
+          "created": 1795175332.8983722,
+          "updated": 1795175339.0511813,
+          "quality": "best",
+          "title": "9.9K views · 339 reactions | When your trying to help your partner out with an arrest and #FAAFO games begin. Let the “Slapathon” commence!! 👊👋 | Beast Camp Training",
+          "resolution": "",
+          "content_type": "video/mp4",
+          "rate": 281661.780392693,
+          "media_info": "{\"format\": \"mov,mp4,m4a,3gp,3g2,mj2\", \"duration\": 9.566667, \"streams\": [{\"index\": 0, \"codec_type\": \"video\", \"codec_name\": \"h264\", \"width\": 480, \"height\": 848, \"sample_rate\": null, \"channels\": null, \"start_time\": \"0.000000\", \"duration\": \"9.566667\"}]}"
+        }
+      ]
+    }
+  }
+}

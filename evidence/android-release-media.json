@@ -1,0 +1,35 @@
+{
+  "source": "https://www.facebook.com/reel/4130607413898579/",
+  "method": "Signed release APK; local embedded yt-dlp with verified native FFmpeg; Storage Access Framework export",
+  "bytes": 6452353,
+  "sha256": "9dfabf97a07d436314a3c269db8607e60eaef3439dabd7a6b50525744f356803",
+  "inspection": {
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": 19.666667,
+    "streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "vp9",
+        "width": 720,
+        "height": 1280,
+        "sample_rate": null,
+        "channels": null,
+        "start_time": "0.000000",
+        "duration": "19.666667"
+      },
+      {
+        "index": 1,
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "sample_rate": "44100",
+        "channels": 2,
+        "start_time": "0.000000",
+        "duration": "19.621995"
+      }
+    ]
+  },
+  "scope": "x86_64 Android 11 emulator; physical ARM64 not tested"
+}

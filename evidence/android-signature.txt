@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=FB MultiEngine Downloader, OU=Independent Open Source
+Signer #1 certificate SHA-256 digest: 8953b0d7d2f50118de3bec74b5edd5371d115a6ea212601153eb5073c5921248
+Signer #1 certificate SHA-1 digest: 4460de88e98014c72357cb6f402befc0a138690c
+Signer #1 certificate MD5 digest: 22054bc2235217a0f5c28504022f616e
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: d78292bda9cfb695a781eb8eda69c3d79c9df6bebdeceffc3ffdd6ac027efd2b
+Signer #1 public key SHA-1 digest: 6c4a21dd82168adfc8fe6204e0f12909be6c7561
+Signer #1 public key MD5 digest: a557a82964cfaf67c1f2724579c813cd

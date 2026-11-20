@@ -59,8 +59,8 @@ Scores are judgment on suitability for this project, from 0 (unusable) to 5 (str
 | yt-dlp | 5 | 5 | 4 | 4 | 5 | 5 | 28 | Primary Facebook video extractor |
 | Playwright | 5 | 5 | 5 | 4 | 5 | 4 | 28 | Primary visible DOM discovery |
 | Selenium | 4 | 5 | 4 | 4 | 5 | 4 | 26 | Optional browser fallback, user-selected |
-| FFmpeg | 5 | 5 | 5 | 4 | 3 | 4 | 26 | Optional separately installed merge/verification tool |
-| youtubedl-android 0.18.1 | 5 | 3 | 4 | 4 | 4 | 5 | 25 | Embedded Android extraction; progressive formats |
+| FFmpeg | 5 | 5 | 5 | 4 | 3 | 4 | 26 | Mission 002 integrated Windows merge/inspection/verification runtime |
+| youtubedl-android 0.18.1 | 5 | 3 | 4 | 4 | 4 | 5 | 25 | Embedded Android extraction and locally tested native FFmpeg |
 | Official Meta SDK / Graph | 2 | 5 | 5 | 5 | 4 | 4 | 25 | Authorized capabilities only; app setup gate |
 | nanofatdog/fb_reel_dl | 5 | 3 | 2 | 2 | 0 | 3 | 15 | Architecture reference only |
 | duongxthanh/facebook-reels-downloader | 4 | 3 | 2 | 2 | 5 | 3 | 19 | Discovery reference only |
@@ -75,7 +75,7 @@ Scores are judgment on suitability for this project, from 0 (unusable) to 5 (str
 - [Selenium reels script](https://github.com/duongxthanh/facebook-reels-downloader/blob/dea2f669d80efe743a1930293bbd4892fb270792/reels.py): persistent-profile and unchanged-offset termination patterns can miss lazy-loaded items or retain secrets. Our browser state is encrypted and links are collected on each bounded scroll. No upstream test suite was established merely from test-URL filenames.
 - [FastAPI service](https://github.com/sh13y/Facebook-Video-Download-API/blob/15d1fd7b045cc2bd07b45f413efbd157fbc8c1d8/app/services/video_service.py): extract/merge separation is useful. Disabled certificate verification, raw error output and title-derived temporary paths were rejected. Our paths use IDs and URL hashes; logs omit raw library errors.
 - [Universal downloader service](https://github.com/milancodess/universalDownloader/blob/cbabe83fe37260359903fbe2934cca075495a886/services/facebookInstaService.js) delegates extraction to other providers. No such service receives URLs or credentials from this app.
-- [Android engine](https://github.com/yausername/youtubedl-android/tree/d725d5c9a18c3a99a13ee0308bf78275dc310760): source review covered initialization, request arguments, progress callback and process cancellation. Native Python/yt-dlp executes inside the APK. The dependency is `io.github.junkfood02.youtubedl-android:library:0.18.1`; no remote bridge is required. FFmpeg Android package is not included, so DASH merging is not offered.
+- [Android engine](https://github.com/yausername/youtubedl-android/tree/d725d5c9a18c3a99a13ee0308bf78275dc310760): source review covered initialization, request arguments, progress callback and process cancellation. Native Python/yt-dlp executes inside the APK. Mission 002 integrates both `io.github.junkfood02.youtubedl-android:library:0.18.1` and its `ffmpeg:0.18.1` component, with a pruned dependency closure and startup merge/decode test. No remote bridge is required. Runtime verification is on x86_64; ARM64 execution remains unverified.
 - [yt-dlp Facebook extractor](https://github.com/yt-dlp/yt-dlp/blob/master/yt_dlp/extractor/facebook.py) supplies regression URLs and extraction behavior. Release uses the recorded installed version, not a vendored fork. Network restrictions and upstream changes still affect availability.
 - [Meta Android SDK](https://github.com/meta/facebook-android-sdk) is the official login route after an app is configured. Its login guidance does not support app-owned WebView login; none was implemented.
 
@@ -85,7 +85,7 @@ The four supplied search URLs were attempted. GitHub connector rejected bare sea
 
 ## Selected architecture
 
-Original application code connects maintained official libraries rather than merging unrelated downloaders. Windows/Python share a SQLite/WAL engine. Browser discovery emits candidates and never silently switches around an access restriction. yt-dlp handles Facebook extraction; the direct HTTP engine handles public media with validated DNS/redirects and Range/If-Range recovery. Optional FFmpeg merges selected formats and can decode-check files. Native Android has its own persistent SQLite queue, OkHttp transport, foreground service, MediaExtractor validation and Keystore vault.
+Original application code connects maintained official libraries rather than merging unrelated downloaders. Windows/Python share a SQLite/WAL engine. Browser discovery emits candidates and never silently switches around an access restriction. yt-dlp handles Facebook extraction; the direct HTTP engine handles public media with validated DNS/redirects and Range/If-Range recovery. Integrated FFmpeg merges selected formats and decode-checks files; wheel provisioning remains explicit. Native Android has its own persistent SQLite queue, OkHttp transport, foreground service, MediaExtractor validation and Keystore vault.
 
 ## Additional primary sources
 

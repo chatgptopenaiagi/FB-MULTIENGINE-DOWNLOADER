@@ -7,7 +7,6 @@ import os
 from pathlib import Path
 import re
 import shutil
-import sys
 import threading
 import time
 from urllib.parse import urlsplit
@@ -68,11 +67,12 @@ def file_hash(path: Path):
 
 
 def ffmpeg_path():
-    configured = os.environ.get("FBMD_FFMPEG")
-    if configured and Path(configured).is_file():
-        return configured
-    bundled = Path(getattr(sys, "_MEIPASS", "")) / "ffmpeg.exe"
-    return str(bundled) if bundled.is_file() else shutil.which("ffmpeg")
+    from .native import multimedia
+
+    runtime = multimedia()
+    if runtime["status"] == "BROKEN":
+        raise RuntimeError(runtime["diagnostic"])
+    return runtime.get("path") if runtime["status"] == "READY" else None
 
 
 class Worker:
@@ -133,6 +133,11 @@ class Worker:
             )
             self.check(job_id)
             digest = file_hash(path)
+            media_info = {}
+            if ffmpeg_path():
+                from .native import inspect_media
+
+                media_info = inspect_media(path)
             for other in self.store.rows():
                 if (
                     other["id"] != job_id
@@ -159,6 +164,7 @@ class Worker:
                 downloaded=path.stat().st_size,
                 total=path.stat().st_size,
                 error="",
+                media_info=json.dumps(media_info),
             )
             self.store.event(job_id, "complete", f"SHA256 {digest}")
         except Paused:
@@ -537,7 +543,20 @@ def verify_media(path: Path, extension: str):
     ffmpeg = ffmpeg_path()
     if ffmpeg and extension in (".mp4", ".webm", ".mov", ".mkv", ".m4a", ".mp3"):
         result = subprocess.run(
-            [ffmpeg, "-v", "error", "-xerror", "-i", str(path), "-f", "null", "-"],
+            [
+                ffmpeg,
+                "-nostdin",
+                "-v",
+                "error",
+                "-xerror",
+                "-protocol_whitelist",
+                "file,crypto,data",
+                "-i",
+                str(path),
+                "-f",
+                "null",
+                "-",
+            ],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.PIPE,
             timeout=600,

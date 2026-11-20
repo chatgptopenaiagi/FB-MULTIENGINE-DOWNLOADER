@@ -16,7 +16,7 @@ Facebook Reel/video/watch aliases share a canonical numeric ID. Other direct URL
 
 HTTP writes `.part`, flushes and syncs it, validates length/container, optionally runs FFmpeg decoding, writes a checksum receipt, then renames. If a final file already exists, it is only reused when its receipt matches; an unknown file is preserved and the job fails. Stable ETag or Last-Modified validators gate range resume; a 200 response restarts the part safely. Bad range metadata or changed validators fail rather than append mismatched content. A crash after rename is recovered from the receipt. Pausing/cancelling retains partial files for inspection; it does not delete user data.
 
-Windows yt-dlp writes into a per-job staging directory before verification and finalization. Android native yt-dlp uses its own `.part` handling and validates the completed media tracks with MediaExtractor. Android HTTP uses its own hash receipt. Native Android merging is not enabled; only combined progressive audio/video formats are selected.
+Windows yt-dlp writes into a per-job staging directory before verification and finalization. The native registry supplies a verified bundled FFmpeg path; a broken selected runtime cannot silently fall back to PATH. FFprobe records stream/container metadata. Android native yt-dlp uses its own `.part` handling and validates completed media tracks with MediaExtractor. Android HTTP uses its own hash receipt. Android's bundled FFmpeg runs a local merge/decode self-test before split-stream selection is enabled; failure leaves progressive selection available with a diagnostic.
 
 ## Diagnostics and contracts
 

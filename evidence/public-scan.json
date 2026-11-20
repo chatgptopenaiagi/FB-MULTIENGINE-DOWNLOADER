@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "tracked_files": 124,
+  "known_session_values_checked": 4,
+  "errors": [],
+  "scope": "Tracked bytes and known saved-session values; screenshots additionally reviewed visually. No secret values are printed."
+}

@@ -1,28 +1,30 @@
 # FB MultiEngine Downloader
 
-An independent local media downloader for Windows, Android and Python. Alpha release: **0.1.0-alpha.1**. The release verification report is the authority for tested capabilities and current Facebook access limits.
+An independent local media downloader for Windows, Android and Python. Alpha release: **0.2.0-alpha.1 — integrated native engines**. The [verification report](evidence/VERIFICATION.md) identifies the tested artifacts, results and remaining limits.
 
 ## What it does
 
 - Windows: PySide6 interface, visible-link discovery with Playwright or Selenium, HTTP and yt-dlp downloads, persistent queue/history, pause/resume, cancellation, content hashes and duplicate prevention.
-- Android: Kotlin/Compose UI, native on-device HTTP and yt-dlp downloads, foreground service, SQLite queue, Android Keystore and Storage Access Framework export. Progressive audio/video formats only; profile discovery and browser-session extraction are desktop-only.
+- Android: Kotlin/Compose UI, native on-device HTTPS and yt-dlp downloads, foreground service, SQLite queue, Android Keystore and Storage Access Framework export. Bundled FFmpeg enables merging only after its on-device fixture test passes; profile discovery and browser-session extraction are desktop-only.
 - Python: installable wheel, `fbmd` CLI and typed `fbmd.client.Downloader` API. Optional authenticated loopback API; remote downloader services and LAN listening are disabled.
 
 Access restrictions stop processing. The app does not defeat authentication, CAPTCHA, account restrictions or private-content permissions. Only save media you are permitted to archive.
 
 ## Windows
 
-Extract the entire portable ZIP and launch `FBMD.exe`. Keep `_internal` alongside it. No Python installation is needed. Media defaults to `F:\AILAB\FB-MULTIENGINE-DOWNLOADER` when that drive is available, otherwise your Downloads folder. Choose another destination in Settings.
+Use the Windows installer, or extract the entire portable ZIP and launch `FBMD.exe`. Keep `_internal` and `engines` alongside it. Python, Qt, FFmpeg, FFprobe, the required multimedia DLLs, Chromium, matching ChromeDriver and extractor libraries are included. No PATH changes or separate runtime installation are required. Media defaults to `F:\AILAB\FB-MULTIENGINE-DOWNLOADER` when that drive is available, otherwise your Downloads folder. Choose another destination in Settings. Uninstall removes program files and preserves personal state and media.
 
 Paste video URLs on Home, add them, then press Start. Sources scans profile/Page URLs; Index only is enabled initially. Accounts requires explicit consent before saving a dedicated browser session. Existing browser profiles are never read automatically.
 
-Microsoft Edge is used when installed. The wheel can install Chromium with `python -m playwright install chromium`. FFmpeg is an optional separately installed executable: select it in Settings or set `FBMD_FFMPEG`. Without it, progressive formats are selected. With it, yt-dlp may merge separate streams and completed video files undergo a decode check.
+Engine Control probes the bundled FFmpeg and FFprobe executables, codecs and containers before reporting READY. Local split-stream merging, HLS processing, stream inspection and decode checks use this runtime. Settings permits an advanced external override; a broken override is reported rather than silently replaced. Bundled Chromium handles browser discovery; Selenium uses the matching bundled driver. Engine and browser updates arrive with application releases.
 
 ## Python
 
 ```powershell
-python -m pip install .\fb_multiengine_downloader-0.1.0a1-py3-none-any.whl
+python -m pip install .\fb_multiengine_downloader-0.2.0a1-py3-none-any.whl
 fbmd doctor
+fbmd provision-native
+fbmd engines
 fbmd add "https://www.facebook.com/reel/VIDEO_ID"
 fbmd run
 fbmd list
@@ -31,7 +33,7 @@ fbmd resume
 fbmd export manifest.json
 ```
 
-For browser discovery: `pip install "fb-multiengine-downloader[browser]"` after the package is available in your package source, or install `playwright selenium` directly. Use `fbmd discover "PROFILE_URL" --rounds 20 --enqueue`. Without `--enqueue`, discovery is index-only. Use `fbmd login --save-session` to explicitly save the dedicated browser session. `--state`, `--media` and `--account` precede the subcommand.
+The wheel keeps native provisioning explicit: `fbmd provision-native` downloads the checksum-pinned Windows x64 FFmpeg/FFprobe bundle into application-controlled storage. It does not modify system PATH. `fbmd inspect FILE`, `fbmd merge VIDEO AUDIO OUTPUT` and `fbmd native-test NEW_DIRECTORY` expose local media operations. Browser dependencies remain optional for the wheel: install `playwright selenium`, and install Chromium with `python -m playwright install chromium` if Edge is unavailable. Use `fbmd discover "PROFILE_URL" --rounds 20 --enqueue`; without `--enqueue`, discovery is index-only. `fbmd login --save-session` explicitly saves the dedicated session. Global `--state`, `--media`, `--account` and `--report` precede the subcommand.
 
 ```python
 from fbmd.client import Downloader
@@ -46,7 +48,7 @@ On Linux/macOS, a secure OS keyring is required; these platforms have not been r
 
 Install the APK from the verified release. Share a video URL to FB MultiEngine or paste it, add it, and tap Start. Downloads stay on the device. Use Save to folder to copy completed files to a location selected through Android's system picker. Internal app files are removed on uninstall; export them first. No desktop service is required.
 
-The universal package contains ARM64 and x86_64 native libraries. Check the verification report for the exact emulator/device architecture tested. A physical ARM64 device is not assumed available.
+The universal package contains ARM64 and x86_64 native libraries. Engines displays the result of a local FFmpeg version/merge/track/decode test. An unavailable native runtime leaves progressive downloads available and is reported clearly. Release execution was tested on an x86_64 Android emulator; ARM64 libraries receive static ABI/dependency inspection. No physical ARM64 execution is claimed.
 
 ## API and credentials
 
@@ -58,6 +60,10 @@ Meta integration can probe an existing authorized token and explicitly supplied 
 
 ## Limits and evidence
 
-Discovery is bounded and coverage is uncertain. Facebook changes may break extractors independently of the local download engine. Successful generated-media tests are not proof of live Facebook compatibility. Unknown metadata is not fabricated. Date/duration filters, Android DASH merging, OAuth onboarding, automatic LAN pairing and global cross-account concurrency are not implemented in this alpha.
+Discovery is bounded and coverage is uncertain. The supplied profile yielded 73 visible links using an explicitly saved app session; two selected media items downloaded with audio and video. This is not proof of complete coverage. A separate public Reel was downloaded on all three products; its delivered progressive file is video-only. Generated split-stream fixtures separately verify merging and audio presence. Date/duration filters, OAuth onboarding, automatic LAN pairing and global cross-account concurrency are not implemented in this alpha. Meta authentication remains unverified without a configured app/token.
 
-See [build instructions](docs/BUILD.md), [architecture and recovery](docs/ARCHITECTURE.md), [security](docs/SECURITY.md), and [verification](evidence/VERIFICATION.md). Release assets include SHA-256 checksums. Keep session state, downloaded media and signing keys out of source control.
+![Integrated native engine control](evidence/windows-integrated-engines.png)
+
+![Android local download](evidence/android-release-ui.png)
+
+See [build instructions](docs/BUILD.md), [native engines](docs/NATIVE_ENGINES.md), [architecture and recovery](docs/ARCHITECTURE.md), [security](docs/SECURITY.md), and [third-party notices](docs/THIRD_PARTY.md). Release assets include SHA-256 checksums and corresponding source material. Keep session state, downloaded media and signing keys out of source control. Windows builds are unsigned; Android uses the project's release signing key.

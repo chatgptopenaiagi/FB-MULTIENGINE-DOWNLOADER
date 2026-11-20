@@ -35,6 +35,11 @@ def main(argv=None):
     parser.add_argument("--state", type=Path, default=default_state)
     parser.add_argument("--media", type=Path, default=default_media)
     parser.add_argument("--account", default="default")
+    parser.add_argument(
+        "--report",
+        type=Path,
+        help="Write command result JSON to this file (also usable by packaged GUI executable)",
+    )
     sub = parser.add_subparsers(dest="command", required=True)
     add = sub.add_parser("add")
     add.add_argument("urls", nargs="*")
@@ -84,6 +89,18 @@ def main(argv=None):
     meta.add_argument("object_id")
     meta.add_argument("--api-version", default="v27.0")
     meta.add_argument("--enqueue", action="store_true")
+    sub.add_parser("engines")
+    sub.add_parser("provision-native")
+    gui_check = sub.add_parser("gui-check")
+    gui_check.add_argument("destination", type=Path)
+    inspect = sub.add_parser("inspect")
+    inspect.add_argument("file", type=Path)
+    merge = sub.add_parser("merge")
+    merge.add_argument("video", type=Path)
+    merge.add_argument("audio", type=Path)
+    merge.add_argument("output", type=Path)
+    acceptance = sub.add_parser("native-test")
+    acceptance.add_argument("destination", type=Path)
     if argv is None:
         argv = sys.argv[1:]
     if argv == ["help"]:
@@ -105,7 +122,31 @@ def main(argv=None):
             return 0
         store = Store(args.state, args.media)
         result = {}
-        if args.command == "add":
+        if args.command == "provision-native":
+            from .native_provision import provision
+
+            result = provision()
+        elif args.command == "gui-check":
+            from .gui import render_acceptance
+
+            result = render_acceptance(args.destination)
+        elif args.command == "engines":
+            from .native import registry
+
+            result = registry()
+        elif args.command == "inspect":
+            from .native import inspect_media
+
+            result = inspect_media(args.file)
+        elif args.command == "merge":
+            from .native import merge_local
+
+            result = merge_local(args.video, args.audio, args.output)
+        elif args.command == "native-test":
+            from .native_acceptance import run_checks
+
+            result = run_checks(args.destination)
+        elif args.command == "add":
             from .manifest import import_urls
 
             urls = args.urls + (import_urls(args.file) if args.file else [])
@@ -223,7 +264,11 @@ def main(argv=None):
         elif args.command == "forget":
             store.vault.forget()
             result = {"forgotten": True}
-        print(json.dumps(result, indent=2))
+        if args.report:
+            args.report.parent.mkdir(parents=True, exist_ok=True)
+            args.report.write_text(json.dumps(result, indent=2), encoding="utf-8")
+        if sys.stdout is not None:
+            print(json.dumps(result, indent=2))
         if args.command in ("run", "download") and any(
             j["status"] in ("failed", "blocked") for j in result["jobs"]
         ):

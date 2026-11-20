@@ -135,8 +135,9 @@ public final class DownloadService extends Service {
         String host=URI.create(job.get("url")).getHost();
         if(!(host.equals("facebook.com")||host.endsWith(".facebook.com")||host.equals("fb.watch")||(BuildConfig.DEBUG&&host.equals("127.0.0.1"))))throw new InvalidMedia();
         YoutubeDL.getInstance().init(this);
+        boolean nativeMerge=NativeMedia.ensureReady(this);
         YoutubeDLRequest r=new YoutubeDLRequest(job.get("url"));
-        r.addOption("--no-playlist");r.addOption("--continue");r.addOption("--no-overwrites");r.addOption("--socket-timeout","20");r.addOption("--retries","1");r.addOption("--fragment-retries","1");r.addOption("-f","best");r.addOption("-o",new File(dir,"media.%(ext)s").getAbsolutePath());
+        r.addOption("--no-playlist");r.addOption("--continue");r.addOption("--no-overwrites");r.addOption("--socket-timeout","20");r.addOption("--retries","1");r.addOption("--fragment-retries","1");r.addOption("-f",nativeMerge?"bv*+ba/b":"best");r.addOption("--merge-output-format","mp4");r.addOption("-o",new File(dir,"media.%(ext)s").getAbsolutePath());
         try{
             YoutubeDL.getInstance().execute(r,"job-"+id,(progress,eta,line)->{
                 db.update(id,"done",progress.longValue(),"total",100);

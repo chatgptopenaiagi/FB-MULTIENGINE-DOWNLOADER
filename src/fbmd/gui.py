@@ -29,7 +29,8 @@ from PySide6.QtWidgets import (
     QHeaderView,
 )
 from .store import Store
-from .engine import Worker, ffmpeg_path
+from .engine import Worker
+from .native import multimedia, registry
 from .cli import defaults
 from .manifest import import_urls, export_manifest
 
@@ -132,6 +133,7 @@ class Window(QMainWindow):
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.refresh)
         self.timer.start(500)
+        self.doctor()
 
     def page(self, title):
         w = QWidget()
@@ -203,7 +205,7 @@ class Window(QMainWindow):
         self.actions(l)
 
     def make_table(self, l, name):
-        table = QTableWidget(0, 9)
+        table = QTableWidget(0, 10)
         table.setHorizontalHeaderLabels(
             [
                 "ID",
@@ -215,6 +217,7 @@ class Window(QMainWindow):
                 "Title / source",
                 "Retries",
                 "Path",
+                "Container / codecs",
             ]
         )
         table.setSelectionBehavior(QTableWidget.SelectRows)
@@ -323,7 +326,24 @@ class Window(QMainWindow):
         l.addWidget(self.meta_result, 1)
 
     def build_engines(self):
-        l = self.page("Engine control")
+        l = self.page("Native engine control")
+        self.native_table = QTableWidget(0, 6)
+        self.native_table.setHorizontalHeaderLabels(
+            [
+                "Engine",
+                "Version",
+                "Architecture",
+                "Source",
+                "Status",
+                "Capabilities / diagnostics",
+            ]
+        )
+        self.native_table.setEditTriggers(QTableWidget.NoEditTriggers)
+        self.native_table.horizontalHeader().setSectionResizeMode(
+            5, QHeaderView.Stretch
+        )
+        self.native_table.setMinimumHeight(270)
+        l.addWidget(self.native_table)
         self.engine_info = QPlainTextEdit()
         self.engine_info.setReadOnly(True)
         l.addWidget(self.engine_info, 1)
@@ -347,11 +367,11 @@ class Window(QMainWindow):
         self.storage_label = QLabel(str(self.store.media))
         l.addWidget(self.storage_label)
         self.button(l, "Choose media destination", self.destination)
-        self.ffmpeg_label = QLabel(
-            "FFmpeg: " + (ffmpeg_path() or "not installed; progressive formats only")
-        )
+        self.ffmpeg_label = QLabel(self.native_label())
+        self.ffmpeg_label.setWordWrap(True)
         l.addWidget(self.ffmpeg_label)
-        self.button(l, "Choose installed FFmpeg", self.choose_ffmpeg)
+        self.button(l, "Advanced: choose FFmpeg override", self.choose_ffmpeg)
+        self.button(l, "Use integrated engines", self.reset_native)
         self.text(
             l,
             "One download at a time per queue. Imports: at most 1,000 URLs. Per-file quota: 10 GiB (FBMD_MAX_FILE_BYTES). ID-based filenames avoid unsafe metadata names. Existing files are preserved.",
@@ -602,19 +622,25 @@ class Window(QMainWindow):
 
     def doctor(self):
         from .accounts import status
-        import importlib.metadata
 
-        versions = {}
-        for name in ("yt-dlp", "playwright", "selenium", "PySide6"):
-            try:
-                versions[name] = importlib.metadata.version(name)
-            except Exception:
-                versions[name] = "not installed"
+        native = registry()
+        self.native_table.setRowCount(len(native["engines"]))
+        for row, item in enumerate(native["engines"]):
+            values = [
+                item["name"],
+                item.get("version", ""),
+                item["architecture"],
+                item["source"],
+                item["status"],
+                ", ".join(item.get("capabilities", [])) or item["diagnostic"],
+            ]
+            for column, value in enumerate(values):
+                self.native_table.setItem(row, column, QTableWidgetItem(str(value)))
+        self.ffmpeg_label.setText(self.native_label())
         self.engine_info.setPlainText(
             json.dumps(
                 {
-                    "versions": versions,
-                    "ffmpeg": bool(ffmpeg_path()),
+                    "native_registry": native,
                     "free_bytes": shutil.disk_usage(self.store.media).free,
                     "accounts": status(self.store),
                     "remote_downloaders": False,
@@ -659,6 +685,22 @@ class Window(QMainWindow):
             self.ffmpeg_label.setText("FFmpeg: " + path)
             self.settings["ffmpeg"] = path
             self.settings_file.write_text(json.dumps(self.settings), encoding="utf-8")
+            self.doctor()
+
+    def reset_native(self):
+        os.environ.pop("FBMD_FFMPEG", None)
+        self.settings.pop("ffmpeg", None)
+        self.settings_file.write_text(json.dumps(self.settings), encoding="utf-8")
+        self.doctor()
+
+    def native_label(self):
+        runtime = multimedia()
+        source = (
+            "Integrated"
+            if runtime["source"] == "bundled"
+            else runtime["source"].capitalize()
+        )
+        return f"FFmpeg / FFprobe: {source} | {runtime['status']}\n{runtime.get('version', '')}\n{runtime['diagnostic']}"
 
     def details(self):
         selected = self.selection()
@@ -708,6 +750,15 @@ class Window(QMainWindow):
                     j["title"] or j["display"],
                     max(0, j["attempts"] - 1),
                     j["path"],
+                    " / ".join(
+                        [
+                            json.loads(j["media_info"]).get("format") or "",
+                            ", ".join(
+                                s.get("codec_name") or ""
+                                for s in json.loads(j["media_info"]).get("streams", [])
+                            ),
+                        ]
+                    ).strip(" /"),
                 ]
                 for col, v in enumerate(values):
                     text = str(v)
@@ -725,6 +776,31 @@ class Window(QMainWindow):
         if self.worker:
             self.worker.stop.set()
         event.accept()
+
+
+def render_acceptance(destination):
+    from PySide6.QtCore import Qt
+
+    destination = Path(destination).resolve()
+    destination.mkdir(parents=True, exist_ok=False)
+    app = QApplication.instance() or QApplication([])
+    app.setStyleSheet(STYLE)
+    window = Window(destination / "state", destination / "media")
+    window.setAttribute(Qt.WA_DontShowOnScreen, True)
+    window.show()
+    for i in range(window.nav.count()):
+        window.nav.setCurrentRow(i)
+        app.processEvents()
+        if i in (0, 6, 8):
+            window.grab().save(str(destination / f"view-{i}.png"))
+    result = {
+        "status": "PASS",
+        "screens_rendered": window.nav.count(),
+        "native_status": multimedia()["status"],
+        "frozen": bool(getattr(sys, "frozen", False)),
+    }
+    window.close()
+    return result
 
 
 def main(state=None, media=None):

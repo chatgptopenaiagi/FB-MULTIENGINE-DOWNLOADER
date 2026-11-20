@@ -15,6 +15,7 @@ public class LocalDownloadTest {
         Context ctx=InstrumentationRegistry.getInstrumentation().getTargetContext();QueueDb db=new QueueDb(ctx);
         Intent activity=new Intent(ctx,MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         ctx.startActivity(activity);Thread.sleep(1200);
+        assertTrue("Bundled FFmpeg self-test: "+NativeMedia.report(ctx),NativeMedia.ensureReady(ctx));
         long id=db.add("http://127.0.0.1:18765/slow.mp4","http");
         assertEquals(id,db.add("http://127.0.0.1:18765/slow.mp4","http"));
         ctx.startForegroundService(new Intent(ctx,DownloadService.class));

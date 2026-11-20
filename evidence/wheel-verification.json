@@ -1,0 +1,26 @@
+{
+  "installed_module": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120\\wheel-env\\Lib\\site-packages\\fbmd\\__init__.py",
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "real_facebook_reel": "https://www.facebook.com/reel/1195289147628387",
+  "record": {
+    "id": 1,
+    "display": "https://www.facebook.com/reel/1195289147628387",
+    "engine": "yt-dlp",
+    "status": "complete",
+    "downloaded": 622802,
+    "total": 622802,
+    "attempts": 1,
+    "error": "",
+    "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\wheel-final\\media\\job-000001-75c324103155\\media.mp4",
+    "sha256": "cc12fd22535bfa0d5f224e105c1c4abf3525cc4cf33501d1f7ed6c5c469123a2",
+    "created": 1795177221.7614455,
+    "updated": 1795177228.9746542,
+    "quality": "best",
+    "title": "9.9K views \u00b7 339 reactions | When your trying to help your partner out with an arrest and #FAAFO games begin. Let the \u201cSlapathon\u201d commence!! \ud83d\udc4a\ud83d\udc4b | Beast Camp Training",
+    "resolution": "",
+    "content_type": "video/mp4",
+    "rate": 258749.35378138817,
+    "media_info": "{\"format\": \"mov,mp4,m4a,3gp,3g2,mj2\", \"duration\": 9.566667, \"streams\": [{\"index\": 0, \"codec_type\": \"video\", \"codec_name\": \"h264\", \"width\": 480, \"height\": 848, \"sample_rate\": null, \"channels\": null, \"start_time\": \"0.000000\", \"duration\": \"9.566667\"}]}"
+  },
+  "reopen_and_duplicate_checks": "passed"
+}

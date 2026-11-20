@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="org.dragonhydra.fbmd.LocalDownloadTest" tests="1" failures="0" errors="0" skipped="0" time="15.888" timestamp="2026-11-20T12:11:13" hostname="localhost">
+  <properties>
+    <property name="device" value="FBMD_API30(AVD) - 11" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="testStandaloneHttpPauseResumeAndNativeExtractor" classname="org.dragonhydra.fbmd.LocalDownloadTest" time="14.15" />
+</testsuite>

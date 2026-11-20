@@ -1,0 +1,6965 @@
+{
+  "package": "C:\\xampp\\FB-MULTIENGINE-DOWNLOADER\\dist\\windows\\FBMD",
+  "pe_count": 165,
+  "errors": [],
+  "status": "PASS",
+  "scope": "Static import/architecture inspection. Runtime operation tests are recorded separately.",
+  "files": [
+    {
+      "path": "FBMD.exe",
+      "bytes": 19381262,
+      "sha256": "72618546f09e72fe9c2587db8a88e5377a4f63017c2525d3e2d258817e5825a2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "comctl32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\api-ms-win-core-console-l1-1-0.dll",
+      "bytes": 22984,
+      "sha256": "fc281e93caec3da26268e216037b2cf4cab91d56180ca06a6ecbe58cfb478f64",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-datetime-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "391fe529d4bbe6b6831c323251b5458498111bac84892ae4c25e2093f61101dc",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-debug-l1-1-0.dll",
+      "bytes": 22992,
+      "sha256": "2446deddbab43a62aa2ff32430b1d57ae50049809c80e009fec48eb942be7c63",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-errorhandling-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "d77f779ed7f75d1a7aaf2fa89eb5b0c21373dbf640b634fb36c763c5dfd6c979",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-fibers-l1-1-0.dll",
+      "bytes": 22984,
+      "sha256": "c83191c8c308d2d31b8e23918d6aacb481ddfe794ac3ddd9569dda6c0166cb8c",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-file-l1-1-0.dll",
+      "bytes": 27048,
+      "sha256": "b058de8c31ccf771b2e277220789d97845ebec890a60a56481a4814e3e735389",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-file-l1-2-0.dll",
+      "bytes": 22952,
+      "sha256": "0dde87fdc224938c5c275274b88cd04cac4b9b2bd1aefced57829d6ff32d3d85",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-file-l2-1-0.dll",
+      "bytes": 20960,
+      "sha256": "f957a4c261506484b53534a9be8931c02ec1a349b3f431a858f8215cecfec3f7",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-handle-l1-1-0.dll",
+      "bytes": 22968,
+      "sha256": "1d87e8a0d13f4cd5f3429bce434cdaa4322be1775a94d3f701174112c37b1501",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-heap-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "ec68fc4dc857a5ebad0d66013b66045f038bc9ddacd4c6ff0d1ba8845ba70c6e",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-interlocked-l1-1-0.dll",
+      "bytes": 22984,
+      "sha256": "f9952810196d8e6236ab44de2983527107b5c6d6478ed0c62fff939e5dedd233",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-libraryloader-l1-1-0.dll",
+      "bytes": 22968,
+      "sha256": "2a11de2af02baf8ca4536a4af4472afe05dee5b939e9090815b282162b5a7022",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-localization-l1-2-0.dll",
+      "bytes": 22992,
+      "sha256": "758592dc54908e26b4381f26a23398d2d9cd09fa59da08334325fb77a688cac8",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-memory-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "783b998fa426dd3c67fb13d28a5c69d35966c625d016bfe0509ab2c2dc15f457",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-namedpipe-l1-1-0.dll",
+      "bytes": 22992,
+      "sha256": "c6c48547c64233df343aa4e63ed5fc8ae33c7f2f43105beb44ef6724295c9323",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-processenvironment-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "0ba19d457691c1a6a9097e66f41bf297230d76c37b2726a3ae78aacdd5baa070",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-processthreads-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "06edff07e07df57a4dd820644a5da1b7847f9b98a975ce2b662ff7e5248d4f33",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-processthreads-l1-1-1.dll",
+      "bytes": 22984,
+      "sha256": "783350a9d9addbfc9287c53ba04916dda0bf4066af8b6fb9a9daeb922cab7d8b",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-profile-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "dfbf6f0670a65832b2eb46e002363f47da3144d88796d5355d73bfdd16c74b35",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "bytes": 22992,
+      "sha256": "36d31e12578cd45667c3ce5b304f9f5591b32e94e3553c766709055b1d4aceff",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-string-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "5e5f07cf28732ac4cf9277bafc921856fba12f2c0f50efd4e717e629d15c2a8f",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-synch-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "d693f4a9d0a4ed5e5a434bdf803ea64c9a673813f078d760d9a9f80495bd9cc1",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-synch-l1-2-0.dll",
+      "bytes": 22952,
+      "sha256": "e44c8ab98a94f66f29dbe04f0326f06dcf07649234f949a201cb977a8827863d",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-sysinfo-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "d1569df07fb4ba7ddc4a13a5c37be0b84390ef98d3ae1c00ce4aaf49d48dc652",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-timezone-l1-1-0.dll",
+      "bytes": 22992,
+      "sha256": "b09ea0c41ea785007f78a00c26c940303238ddc51b8d004d8c2871f04a16463a",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-core-util-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "13262cb0f66011cc71e60a4f8274d5d150fe9c5055057e3044fd8923bc7dfe5f",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-conio-l1-1-0.dll",
+      "bytes": 22968,
+      "sha256": "5a491b12da855030c853370a2b1b06511843a2eedd3dd2551390848042413d7a",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-convert-l1-1-0.dll",
+      "bytes": 27080,
+      "sha256": "eef6a2de9291b222b4b0f1dc8d8d9b9e0f87bf5211d07ca97718ff65beb0497c",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-environment-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "e0e24ea579e8d6fa9179d0831fb5220f97bfd9aa92e16731791dbf1cde79de1d",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bytes": 22992,
+      "sha256": "d07e308650524fcb0ffd0445c115a93e5ef8cd548343af65d2e02f189a748af7",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-heap-l1-1-0.dll",
+      "bytes": 22976,
+      "sha256": "8f46f948711f32faf55947ec0c81dd25bf41f0360a73f526970ba1b3566b9b8c",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-locale-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "287054455824d9492eb5bbc9272b7adff067691024e86ea5985a5cc57978eb8f",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-math-l1-1-0.dll",
+      "bytes": 31168,
+      "sha256": "5b0c2d91576d6cf0689bba9497597705c5116f8ac4b7e5f55b216d7cc88f976b",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-process-l1-1-0.dll",
+      "bytes": 22952,
+      "sha256": "0fff505ceb45ea626973f51ff3ed65cbb5a38999dcc51ed44a975621b5b3a842",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-runtime-l1-1-0.dll",
+      "bytes": 27088,
+      "sha256": "47580554375b61e0b02be85407dbf4e6f673ade467d50a519c77a054d78eb72a",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-stdio-l1-1-0.dll",
+      "bytes": 27048,
+      "sha256": "e5ec82f25ac00f451766bf9a88863c5c91125f8871153c895c3e740110e93af5",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-string-l1-1-0.dll",
+      "bytes": 27088,
+      "sha256": "d28d1fbf00e098970fc8d1fea3d5123ec1c2b75a78a573c3b0f380ecd09a8a70",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-time-l1-1-0.dll",
+      "bytes": 22984,
+      "sha256": "7b6d197771d91c79e27d836557bbcdfe68e08d0b084639aa30d1783c81eaffde",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\api-ms-win-crt-utility-l1-1-0.dll",
+      "bytes": 22000,
+      "sha256": "d2a27ff370b4f5c87e5475573d23ee261825a9cd1dd55ee0551a361f61414209",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\libcrypto-3-x64.dll",
+      "bytes": 7343944,
+      "sha256": "83e02d124c675839765df4cf42bf483d239204c5d70e83232ce1cb131c6f7a4f",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\libcrypto-3.dll",
+      "bytes": 5232408,
+      "sha256": "4e5d5d20d6d31e72ab341c81e97b89e514326c4c861b48638243bdf0918cfa43",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\libffi-8.dll",
+      "bytes": 39696,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\libssl-3-x64.dll",
+      "bytes": 1327944,
+      "sha256": "8cce38aefaaa530528949a9f3901c09d5578b91fe9b6a0248427c983f1b54559",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "libcrypto-3-x64.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\libssl-3.dll",
+      "bytes": 792856,
+      "sha256": "2e4d35b681a172d3298caf7dc670451be7a8ba27c26446efc67470742497a950",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "libcrypto-3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\pyexpat.pyd",
+      "bytes": 201488,
+      "sha256": "d3e81017b4a82ae1b85e8cd6b9b7eb04d8817e29e5bc9ece549ac24c8bb2ff23",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\python3.dll",
+      "bytes": 70416,
+      "sha256": "a5c6a329698490a035133433928d04368ce6285bb91a9d074fc285de4c9a32a4",
+      "architecture": "x64",
+      "imports": []
+    },
+    {
+      "path": "_internal\\python313.dll",
+      "bytes": 6083856,
+      "sha256": "0c0a66505093b6a4bb3475f716bd3d9552095776f6a124709c13b3f9552c7d99",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-path-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-process-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-conio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\select.pyd",
+      "bytes": 30992,
+      "sha256": "78e5994c29d8851f28b5b12d59d742d876683aea58eceea1fb895b2036cdcdeb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\sqlite3.dll",
+      "bytes": 1540368,
+      "sha256": "66771fbd64e2d3b8514dd0cd319a04ca86ce2926a70f7482ddec64049e21be38",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\ucrtbase.dll",
+      "bytes": 1122768,
+      "sha256": "c04daeba7e7c4b711d33993ab4c51a2e087f98f4211aea0dcb3a216656ba0ab7",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-core-errorhandling-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-processthreads-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-libraryloader-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-debug-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-processenvironment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-file-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-fibers-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-localization-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-datetime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-sysinfo-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-processthreads-l1-1-1.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-console-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-handle-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-file-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-namedpipe-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-timezone-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-file-l2-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-profile-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-memory-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-util-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-interlocked-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\unicodedata.pyd",
+      "bytes": 709904,
+      "sha256": "2693c7ee4fba55dc548f641c0cb94485d0e18596ffef16541bd43a5104c28b20",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\VCRUNTIME140.dll",
+      "bytes": 120400,
+      "sha256": "36585912e5eaf83ba9fea0631534f690ccdc2d7ba91537166fe53e56c221e153",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\VCRUNTIME140_1.dll",
+      "bytes": 49744,
+      "sha256": "82a2f9ae1e6146ae3cb0f4bc5a62b7227e0384209d9b1aef86bbcc105912f7cd",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_asyncio.pyd",
+      "bytes": 70928,
+      "sha256": "dbeae7cb6f256998f9d8de79d08c74d716d819eb4473b2725dbe2d53ba88000a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_bz2.pyd",
+      "bytes": 84240,
+      "sha256": "fc3b481684b926350057e263622a2a5335b149a0498a8d65c4f37e39dd90b640",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_cffi_backend.cp313-win_amd64.pyd",
+      "bytes": 180736,
+      "sha256": "21b7160d4a6da9590794fdb38718982060b5c92d56fb0e441fc8b62ee789be8d",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_ctypes.pyd",
+      "bytes": 131344,
+      "sha256": "f63c6c7e71c342084d8f1a108786ca6975a52cefef8be32cc2589e6e2fe060c8",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "libffi-8.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_decimal.pyd",
+      "bytes": 277776,
+      "sha256": "b715d1c18e9a9c1531f21c02003b4c6726742d1a2441a1893bc3d79d7bb50e91",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_elementtree.pyd",
+      "bytes": 133904,
+      "sha256": "b43e0a90e4a4aa4fb93a8a6a88cb79e1e670eb24fe5655171e743a32db07a471",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_hashlib.pyd",
+      "bytes": 64272,
+      "sha256": "838d5c8b7c3212c8429baf612623abbbc20a9023eec41e34e5461b76a285b86c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "libcrypto-3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_lzma.pyd",
+      "bytes": 157968,
+      "sha256": "d080eabd015a3569813a220fd4ea74dff34ed2a8519a10473eb37e22b1118a06",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_multiprocessing.pyd",
+      "bytes": 35600,
+      "sha256": "59134b754c6aca9449e2801e9e7ed55279c4f1ed58fe7a7a9f971c84e8a32a6c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_overlapped.pyd",
+      "bytes": 55568,
+      "sha256": "404353d7b867749fa2893033bd1ebf2e3f75322d4015725d697cfa5e80ec9d0f",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_queue.pyd",
+      "bytes": 33552,
+      "sha256": "b9cf502dadcb124f693bf69ecd7077971e37174104dbda563022d74961a67e1e",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_socket.pyd",
+      "bytes": 83728,
+      "sha256": "35246b04c6c7001ca448554246445a845ce116814a29b18b617ea38752e4659b",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_sqlite3.pyd",
+      "bytes": 128272,
+      "sha256": "3e625978d7c55f4b609086a872177c4207fb483c7715e2204937299531394f4c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "sqlite3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_ssl.pyd",
+      "bytes": 181520,
+      "sha256": "63ae2fefbfbbbc6ea39cde0a622579d46ff55134bc8c1380289a2976b61f603e",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "libcrypto-3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "libssl-3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_uuid.pyd",
+      "bytes": 25872,
+      "sha256": "f9d5008f0772aa0720bc056a6ecd5a2a3f24965e4b470b022d88627a436c1ffe",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_wmi.pyd",
+      "bytes": 38160,
+      "sha256": "6435c679a3a3ff4f16708ebc43f7ca62456c110ac1ea94f617d8052c90c143c7",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "propsys.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\_zoneinfo.pyd",
+      "bytes": 49424,
+      "sha256": "fa1d5ece7de09df633ef1051c6719302cabd3622bca6756005046b8c2919818d",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\charset_normalizer\\cd.cp313-win_amd64.pyd",
+      "bytes": 115200,
+      "sha256": "9cccc0b9eb9f514f25cf21d9a8f09948506978ffa19d80ccd6be8df9a9890095",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\charset_normalizer\\md.cp313-win_amd64.pyd",
+      "bytes": 206336,
+      "sha256": "b484d0fc3d09e52a4974f4aebfc8f79cc5e4f38e375d76402b93905f03f803b1",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\greenlet\\_greenlet.cp313-win_amd64.pyd",
+      "bytes": 221184,
+      "sha256": "4e6735b0cbfad9362bda704bf60b8b688392a8ee3fa06a8d0cae82d71fb884aa",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PIL\\_avif.cp313-win_amd64.pyd",
+      "bytes": 7890944,
+      "sha256": "6c6e5d33db5ecd8a28252103c97ac7867d376371875b6baa609947d8e778022a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PIL\\_imaging.cp313-win_amd64.pyd",
+      "bytes": 2662400,
+      "sha256": "832167d2ecd950dc2382a9866e346d5886262bc8790bbf24613f56ad19d52f82",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PIL\\_imagingcms.cp313-win_amd64.pyd",
+      "bytes": 275456,
+      "sha256": "4ab7b14029ea0a6bdb7f94b069ad3399d53fd192aaeed7460fbabba61d065b76",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PIL\\_imagingft.cp313-win_amd64.pyd",
+      "bytes": 2250752,
+      "sha256": "91f0a8e145163803637620517bad32ad5cb551d8a4dc02c3309811af24dbcbcc",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PIL\\_imagingtk.cp313-win_amd64.pyd",
+      "bytes": 14336,
+      "sha256": "a7af2e099caae412470919646d5d1cf36566fbed697c4cd44e926029dd2c4ccf",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "psapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PIL\\_webp.cp313-win_amd64.pyd",
+      "bytes": 415744,
+      "sha256": "77ec2f34c0a33151c7b020dfc987163678e1e3428508117ca8cbc68dfb2af2b1",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\pydantic_core\\_pydantic_core.cp313-win_amd64.pyd",
+      "bytes": 5780480,
+      "sha256": "567638df0cba5ba863c604efb2c76d1776d4a09b3386440241e73ebb58a189c3",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "bcryptprimitives.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\MSVCP140.dll",
+      "bytes": 549176,
+      "sha256": "f6f1d55bfd64027820ddce48f9cd8cf46d53bfa34047e6acf4ef348d492a05cb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\MSVCP140_1.dll",
+      "bytes": 27448,
+      "sha256": "2be87527c41e1ba8aff48e326e0adcd4743516e0bbcc9304986c726e27de6aca",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\MSVCP140_2.dll",
+      "bytes": 271672,
+      "sha256": "6a72ed8a87eae1671640bd1ca98eccb989f1772ae46ab84594e385bf6d4ac4fb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\opengl32sw.dll",
+      "bytes": 20639544,
+      "sha256": "18aedc7a4b610f53bcc7b7a5c5ed9293c7e86f030e3273ad54ed3bb1ebd36702",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "imagehlp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\pyside6.abi3.dll",
+      "bytes": 262968,
+      "sha256": "d5b87ccb0a7c305854bd120242b0a75002d0b50a35532d0f6171e4ed0f3cc82a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "shiboken6.abi3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Core.dll",
+      "bytes": 10472760,
+      "sha256": "f57ed38afd95d0306cca9d88d997f639f70c7628a4f1f064eae291d579487121",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "mpr.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "authz.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "netapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "icuuc.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Gui.dll",
+      "bytes": 9683256,
+      "sha256": "abd20026e190e8cc69667d1bea042db05cd353cc05e7da74b063c20b7da3f6cd",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "d3d11.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dxgi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d3d12.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uxtheme.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dwrite.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_2.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Network.dll",
+      "bytes": 1780536,
+      "sha256": "1c7c393b264ae78f4dee211656377a086c4be714bf768d3135f94f11c1d0be61",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dnsapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "secur32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winhttp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6OpenGL.dll",
+      "bytes": 1989944,
+      "sha256": "788b743bfaca141ca83e28c161646d51de92a71adf7a86c653c36fdea5a9bf5b",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Pdf.dll",
+      "bytes": 4623672,
+      "sha256": "5caf5744e017df85455c5c7e11028c5ec2765633a7ca64a11d7b64d127f6c4cc",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6network.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Qml.dll",
+      "bytes": 5390136,
+      "sha256": "0be9fc8ad3b7d2d19d0ed49a9026f02b78c4498ab2f53ca574d34a0740d7888a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6network.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6QmlMeta.dll",
+      "bytes": 158520,
+      "sha256": "6edac38b27868e69c8ae15b08145688b02358426d5d652a0d2865ca4476fde0a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6qmlmodels.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6qmlworkerscript.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6qml.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6QmlModels.dll",
+      "bytes": 1021752,
+      "sha256": "78e79eee241326da0754e29f4b372dee9ff7b75f3484099504c4750ac1f519e6",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6qml.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6QmlWorkerScript.dll",
+      "bytes": 80184,
+      "sha256": "475456ab8f1e9570f5f5f496b0941445a34fca4bbac0dd07ea84ee5ea15e7194",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6qml.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Quick.dll",
+      "bytes": 6752568,
+      "sha256": "3c93688f36ad4e5c5c2fd73587f50ee94e1dfa4891805bbe5d6d0c031450faa2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6qmlmeta.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6qmlmodels.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6qml.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6network.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6opengl.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_2.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Svg.dll",
+      "bytes": 608056,
+      "sha256": "8f1de5b28aab1eedb415c751c81f9cfaa2804242868c0ceea5f3fdb4b2babca4",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6VirtualKeyboard.dll",
+      "bytes": 424248,
+      "sha256": "973369caa6d13fa08f6b1cd57004dcf4f137f8ef98ec6876ad07ba690ee0b9a3",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6quick.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6qml.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\Qt6Widgets.dll",
+      "bytes": 6520120,
+      "sha256": "2f62cbe2869fff4e20df7369c2786e1ec7ec290d5a63d1371b7f70cf06909c3f",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "dwmapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uxtheme.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\QtCore.pyd",
+      "bytes": 3521336,
+      "sha256": "6486f6f0a2fec42fc8c652c0b76bb3ad0d44eaccad9c72e577116a075681eebb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "pyside6.abi3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "shiboken6.abi3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\QtGui.pyd",
+      "bytes": 3936056,
+      "sha256": "9ac544d1bcf8a26c408c63090d05506f8382d5378ee3a204e29a3ac5449c5b2b",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "pyside6.abi3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "shiboken6.abi3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\QtNetwork.pyd",
+      "bytes": 1039672,
+      "sha256": "22bffdb2a431b5a986de255f7eb0fcd1fd7d9e85c53967978e2ab479b33a13c5",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "pyside6.abi3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6network.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "shiboken6.abi3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\QtWidgets.pyd",
+      "bytes": 4911416,
+      "sha256": "a8e323e56a93c1a8a70981c36a409c0a2546e7a08da5be8ca4e03dfd27febc2a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "pyside6.abi3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "qt6widgets.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\VCRUNTIME140.dll",
+      "bytes": 116024,
+      "sha256": "a36e0cb185eb89533ed96d4568138f86a1315756a8b2644c5963a8ce23e32101",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\VCRUNTIME140_1.dll",
+      "bytes": 41272,
+      "sha256": "302b1e160e858602490a55e32ae2e29ddfc0bec2a188e19550cb655cdaa58f9c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\pywin32_system32\\pywintypes313.dll",
+      "bytes": 136192,
+      "sha256": "ea82e185e0bed58485a8df23712b62224f5e486dbb84d946115cad17512065cb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\shiboken6\\MSVCP140.dll",
+      "bytes": 549176,
+      "sha256": "1ba4d7c0a95d375da138a057a57593b33510ad5bda6c5e2686afd68faa5b4231",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\shiboken6\\Shiboken.pyd",
+      "bytes": 33080,
+      "sha256": "8ccf415b2cefb5b6462504581ab1993fb41afe04e415931d8a72049f1c79b267",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "shiboken6.abi3.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\shiboken6\\shiboken6.abi3.dll",
+      "bytes": 399672,
+      "sha256": "07c318c02be5a3a9f1475f5a2d0cd438f4d4ea3288c28e2e10bc5ebbbec8de86",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\shiboken6\\VCRUNTIME140.dll",
+      "bytes": 116024,
+      "sha256": "e7be9112ee9a5b9f44b44bff24cb761cca9b1ed7550b612f77b70edfcf5fdabf",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\shiboken6\\VCRUNTIME140_1.dll",
+      "bytes": 41272,
+      "sha256": "f02cd4a862b85a9a3153d27e15e5a213f5df8e3d77004ed2e87b8a7e8873d97c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\win32\\win32api.pyd",
+      "bytes": 138752,
+      "sha256": "040d6a9ce12555d2585f89dce2aa4e25265c27dfa827eb9cae4c922e12ec731c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "secur32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "pywintypes313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "powrprof.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\win32\\win32cred.pyd",
+      "bytes": 40448,
+      "sha256": "48fce8c1630459a1819fb619a5cd4465aeb91b15aa76a0311ef02a57a1c8b5d6",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "credui.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "pywintypes313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\win32\\win32evtlog.pyd",
+      "bytes": 76800,
+      "sha256": "842db19e698bfef74cb030025dff516cee8848339ca89eae9bdc15a15172219c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "pywintypes313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "wevtapi.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\win32\\_win32sysloader.pyd",
+      "bytes": 15872,
+      "sha256": "edbf9272f4b04e1ca6d076e5e5c713a730e0c3899e42157bee5b32c3847c1e05",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python313.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll",
+      "bytes": 102712,
+      "sha256": "8565656807db29cfb6170e6803181f24e0bed3aa1b14684d29694e375cc5ee96",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6network.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\iconengines\\qsvgicon.dll",
+      "bytes": 72504,
+      "sha256": "f9e21af351bd5d5629bc00e8e3796b552eca92d1a9645438c865b9c53af1714f",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6svg.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qgif.dll",
+      "bytes": 48440,
+      "sha256": "77782de4aa4f7b75a7cc4d3f24aee49da935c312ea13d25f4cda3a98d180145c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qicns.dll",
+      "bytes": 56632,
+      "sha256": "93e2e588cd1036af3c6300b539d648b3825625788e59a3f0f1863d9901c9759f",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qico.dll",
+      "bytes": 47416,
+      "sha256": "a0e4d0d0319e075f6cc5f774084bf390f7af83600f38685c6bc9c407681cc22c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qjpeg.dll",
+      "bytes": 592696,
+      "sha256": "dd42bdcd229744a9515db82ba9a802c74b6589cc508c3e85fb30f06ba24b9da6",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qpdf.dll",
+      "bytes": 42296,
+      "sha256": "0625e11f7ed136d4556cdc248527f26ac23eca93fa77764e9b64535557613efc",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6pdf.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qsvg.dll",
+      "bytes": 40248,
+      "sha256": "b63f97ed0ae60aa5bc332c37e429c1f31154e1eee358352b2c49598c5269843b",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6svg.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qtga.dll",
+      "bytes": 39224,
+      "sha256": "ce95aa019d940533341b4f08a10ddd3b0393162678c47904251da77aeadfd34e",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qtiff.dll",
+      "bytes": 991032,
+      "sha256": "ce696a2dd2e57b8852f7d01834725f54a4d0be66c3d2c491df60fd907fece907",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qwbmp.dll",
+      "bytes": 36664,
+      "sha256": "e118243bd3528aa5fe6378a8839abe0efc200e891af06ee369b97b2ff239b89c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\imageformats\\qwebp.dll",
+      "bytes": 566072,
+      "sha256": "02ae5555b688f78aade5cedcd66c646b73d519460c008c23e75ad408bd152668",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll",
+      "bytes": 79160,
+      "sha256": "2bd047476183c76004221fb44adb7ada9b4b6ce5c2929d63ff67a5305b430f1a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6network.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll",
+      "bytes": 36664,
+      "sha256": "bbf479e6380061699e734a32f4fe0b6fc8bc2de007ae53b0206e6e36abf1e3e2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "imm32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6virtualkeyboard.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\platforms\\qdirect2d.dll",
+      "bytes": 1082168,
+      "sha256": "18213464be5a5a1d39af6a2c876ce21a6bb6a634c814651d09f0ef7e4719edc2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d2d1.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d3d11.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dwmapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dwrite.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "imm32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "setupapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "wtsapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-shcore-scaling-l1-1-1.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "comdlg32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d3d9.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "mscms.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uiautomationcore.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\platforms\\qminimal.dll",
+      "bytes": 62264,
+      "sha256": "c9025bc5f4653c5aadac87f06ab391763e82adf792f6759c6027a78a5efcaf5c",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\platforms\\qoffscreen.dll",
+      "bytes": 111928,
+      "sha256": "d24ef380ab0882d39f21539dcf57ab4213875a6fc658a53012f2d2fd275c6f69",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\platforms\\qwindows.dll",
+      "bytes": 1001784,
+      "sha256": "ddd5cf6a96f058cfafcbc901ddeb5df010d755f0716beacfb557f8b27b733afe",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dwmapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "imm32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "setupapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "wtsapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-shcore-scaling-l1-1-1.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "comdlg32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d3d9.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "mscms.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uiautomationcore.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140_1.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll",
+      "bytes": 241464,
+      "sha256": "74d4c47b56a942afb3723bb105900501bb8f91a46a8b592fa722cc4fdb2ce9bf",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "dwmapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uxtheme.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6widgets.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6gui.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\tls\\qcertonlybackend.dll",
+      "bytes": 105784,
+      "sha256": "87574d467b6f9640a15e37bf4183179c6a7cefc4dc84346b8f4cffb989cf1e12",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "qt6network.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\tls\\qopensslbackend.dll",
+      "bytes": 317752,
+      "sha256": "94b3492bc4087da2818e2749a5a03f7d810611b2e3648bd8d580ad087363046f",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6network.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\PySide6\\plugins\\tls\\qschannelbackend.dll",
+      "bytes": 249144,
+      "sha256": "2915a86a2531e65fd4905f0cc1c8dc353772a4f52aeda5100725dd9249db54d1",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "secur32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ncrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "qt6network.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "qt6core.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msvcp140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\playwright\\driver\\node.exe",
+      "bytes": 100089160,
+      "sha256": "f5109dc868ec38703ad8f305e0aceece717cb60d4889873f434017af4e96cccb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "_internal\\cryptography\\hazmat\\bindings\\_rust.pyd",
+      "bytes": 9897472,
+      "sha256": "1d4332a447cab13dec8e3a533ad579e0e562b79e40822c931f33769758fc7156",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "python3.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "bcryptprimitives.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "vcruntime140.dll",
+          "resolution": "packaged dependency"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\discovery\\chromedriver.exe",
+      "bytes": 24734208,
+      "sha256": "8fbb1a2b4413380eadfa681aa759b2f990646935ef2115e511479ed6c5f42012",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "secur32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winhttp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "bcryptprimitives.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "urlmon.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "dhcpcsvc.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ncrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "tbs.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\avcodec-63.dll",
+      "bytes": 94045696,
+      "sha256": "68eb1ecf638471d259f4b02243aaffe2f79c73efdcbf9c7daa8d4737a98f0a63",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d2d1.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dnsapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dwrite.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "msimg32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-conio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-process-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "usp10.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcryptprimitives.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swresample-7.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\avdevice-63.dll",
+      "bytes": 4950528,
+      "sha256": "34bc4f5ab730254719cda48f46cd3f3ef72c2fcbbd1e79f9a836feb49d062705",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "avrt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avicap32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avcodec-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avfilter-12.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avformat-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\avfilter-12.dll",
+      "bytes": 32116224,
+      "sha256": "178039a5ce765e3865c98a1b037c100a21d064305f3dd2ebfae9d944c3d10de2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "cfgmgr32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-multibyte-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "usp10.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avcodec-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avformat-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swresample-7.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swscale-10.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\avformat-63.dll",
+      "bytes": 19978240,
+      "sha256": "397dfa2b75e89e5a3e01f348efe7f65efd7fa662f2a098221671d4beeca76bfa",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ncrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "secur32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "usp10.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avcodec-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\avutil-61.dll",
+      "bytes": 3028992,
+      "sha256": "57b52c2454ede831aa96d7a9be99b587be794941f08f26594248c788293f1224",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "cfgmgr32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\ffmpeg.exe",
+      "bytes": 553984,
+      "sha256": "1564f9afab0e0a41b1b3632424e9f55e9adc8cf2e521e22a3ebfd127dd6a7041",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-conio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avcodec-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avdevice-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avfilter-12.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avformat-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swresample-7.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swscale-10.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\ffprobe.exe",
+      "bytes": 271872,
+      "sha256": "abf8af8196ffaa12aa3392f6f809227b22b55a30ff87865a8e032da69016a199",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "avcodec-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avdevice-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avfilter-12.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avformat-63.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swresample-7.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "swscale-10.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\swresample-7.dll",
+      "bytes": 749568,
+      "sha256": "6fae94109ce21e24d33f86de3e755fd4549558d87f765e7a5255d38da85a1be3",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\ffmpeg\\swscale-10.dll",
+      "bytes": 2346496,
+      "sha256": "ca550a40566e0a14271864642fbb9f3f026fdcc924ee4f145d5dee75337255b7",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-private-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "avutil-61.dll",
+          "resolution": "same directory"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\chrome.dll",
+      "bytes": 317817856,
+      "sha256": "69c65164dc668d9ef7a3573465b59262eef36499b02bba5362bd7c661d00d4eb",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ws2_32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "chrome_elf.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "dwrite.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bcrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "iphlpapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "pdh.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "mmdevapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dxgi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-handle-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "mfplat.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d3d11.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "propsys.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "wevtapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "mf.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "mfreadwrite.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "netapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "secur32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "comctl32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleacc.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uiautomationcore.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "wtsapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "hid.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "setupapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "wintrust.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "credui.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "urlmon.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winhttp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ndfapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "cryptui.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dwmapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "imm32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-shcore-scaling-l1-1-1.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "cfgmgr32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-power-base-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "tbs.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-realtime-l1-1-1.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "ncrypt.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-power-setting-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "winspool.drv",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "uxtheme.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "d3d12.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dcomp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "bcryptprimitives.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winusb.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "comdlg32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "bthprops.cpl",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dhcpcsvc.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "wininet.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "esent.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\chrome.exe",
+      "bytes": 4261888,
+      "sha256": "9b5b0b9d91b08bc432f53ddf9946aaec7ab100b3f887819656c2ee63cde1757e",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "chrome_elf.dll",
+          "resolution": "same directory"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "winhttp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-power-base-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\chrome_elf.dll",
+      "bytes": 2876416,
+      "sha256": "1b4996b109a82e9a6356085d4dd17537183b24e7c7a8cbc793251df01356c867",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\chrome_proxy.exe",
+      "bytes": 2681344,
+      "sha256": "4898490a985ff7f6e7a8a8dbdc1e608396468684ef855dda09489b61f15fd908",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\chrome_pwa_launcher.exe",
+      "bytes": 2967552,
+      "sha256": "856769dc125e3fb5474e12f427c679c218bf0578a7f025547993960c9472d664",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\chrome_wer.dll",
+      "bytes": 115200,
+      "sha256": "ad8f1c3f0640a8c141f0f1c8c30eed88896944da2664c611120045dd99333a06",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\D3DCompiler_47.dll",
+      "bytes": 4753864,
+      "sha256": "f5c95e919b4ffa1ac71049cd45b9f986d2965e6888395ca2806337985334fa56",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\dxcompiler.dll",
+      "bytes": 26570240,
+      "sha256": "6c05389186fd021091a1a8bd66b4e06cfa80081a5494b9f5b1e0c4a2708fb52a",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\elevated_tracing_service.exe",
+      "bytes": 4701184,
+      "sha256": "fe21b2bfbea2d01eb74099b4506817f25e404f9857d47b5613a5b1a7b8723674",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "pdh.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "winhttp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-power-base-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\elevation_service.exe",
+      "bytes": 3634688,
+      "sha256": "026ca592c64593d21ada5b3b03381b195f9e8dbb0ed2f083caa6844a6dea106d",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "crypt32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "rpcrt4.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\libEGL.dll",
+      "bytes": 466432,
+      "sha256": "fcc1aaf699f2edcdaf1d6b32679f59a764ec862d1835723c372c96a65dff9bac",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\libGLESv2.dll",
+      "bytes": 466432,
+      "sha256": "a8b93a41f62c48edec61e870199e464855976f4cfe06c3cd1c9e5380731367c3",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\notification_helper.exe",
+      "bytes": 2928640,
+      "sha256": "b0aad5f318c2c7cbb30e10cd76fa1a6175fb8dcc4c2ae9cc3996c32583789229",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "api-ms-win-core-winrt-error-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\setup.exe",
+      "bytes": 6859776,
+      "sha256": "ee92afe434f7208ece8229705bc810f657acac35cdc6460fd427fb1096da0ad2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "dbghelp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "oleaut32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shell32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winhttp.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ole32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "propsys.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "shlwapi.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "ntdll.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "winmm.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "userenv.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "version.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "urlmon.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-winrt-string-l1-1-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "Windows API set"
+        },
+        {
+          "name": "api-ms-win-power-base-l1-1-0.dll",
+          "resolution": "Windows API set"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\vk_swiftshader.dll",
+      "bytes": 5595136,
+      "sha256": "c65d9d900c0c4507ecdae4cdfa2f3c52a8a7530b8ebb0a79f40925ac9f3ad3b2",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "user32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "gdi32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    },
+    {
+      "path": "engines\\browser\\chromium-1255\\chrome-win64\\vulkan-1.dll",
+      "bytes": 940544,
+      "sha256": "cb5dc4e7b40074194d414efeaecdbb5c78906b8f1eac6a66896436b5ee4a13bf",
+      "architecture": "x64",
+      "imports": [
+        {
+          "name": "advapi32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "kernel32.dll",
+          "resolution": "Windows system"
+        },
+        {
+          "name": "cfgmgr32.dll",
+          "resolution": "Windows system"
+        }
+      ]
+    }
+  ]
+}

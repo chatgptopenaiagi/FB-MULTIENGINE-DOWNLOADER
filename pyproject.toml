@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fb-multiengine-downloader"
-version = "0.1.0a1"
+version = "0.2.0a1"
 description = "Local, persistent media downloads with browser discovery and explicit access boundaries"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -26,6 +26,10 @@ fbmd-gui = "fbmd.gui:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+fbmd = ["*.json", "py.typed"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+markers = ["native: real native runtime integration checks (requires provisioned tools)"]

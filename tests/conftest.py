@@ -6,6 +6,14 @@ import pytest
 PAYLOAD = b"\x00\x00\x00\x20ftypisom" + bytes(range(256)) * 8192
 
 
+@pytest.fixture(autouse=True)
+def isolate_transport_tests(request, monkeypatch):
+    # These synthetic byte fixtures verify transport/state, not multimedia decoding.
+    # Native tests and packaged acceptance run the real executables separately.
+    if request.node.get_closest_marker("native") is None:
+        monkeypatch.setattr("fbmd.engine.ffmpeg_path", lambda: None)
+
+
 @pytest.fixture
 def server():
     requests = []

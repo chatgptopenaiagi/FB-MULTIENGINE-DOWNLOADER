@@ -29,7 +29,7 @@ if report["release_tag"] != tag or report["status"] not in (
     "VERIFIED",
 ):
     raise RuntimeError("Missing verified acceptance status")
-required = {"windows_packaged_ui", "wheel_installed", "android_release_local_download"}
+required = {"windows_packaged_ui", "wheel_installed", "android_release_local_download", "windows_native_merge", "windows_installer", "android_native_merge"}
 if any(report["checks"].get(name) != "PASS" for name in required):
     raise RuntimeError("Missing platform acceptance gate")
 seen = set()

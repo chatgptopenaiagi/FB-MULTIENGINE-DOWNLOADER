@@ -1,0 +1,5740 @@
+{
+  "status": "PASS",
+  "apk": "app-release.apk",
+  "elf_count": 438,
+  "errors": [],
+  "files": [
+    {
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libffmpeg.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavdevice.so.61",
+        "libavfilter.so.10",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libpostproc.so.58",
+        "libswresample.so.5",
+        "libswscale.so.8",
+        "libavutil.so.59",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libffprobe.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavdevice.so.61",
+        "libavfilter.so.10",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libpostproc.so.58",
+        "libswresample.so.5",
+        "libswscale.so.8",
+        "libavutil.so.59",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libffi.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libexpat.so.1.11.1",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libgdbm_compat.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libgdbm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/engines-3/loader_attic.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/engines-3/capi.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/liblzma.so.5.8.1",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libandroid-support.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libmenuw.so.6.5",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libandroid-posix-semaphore.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libz.so.1.3.1",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/ossl-modules/legacy.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libhistory.so.8.3",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libformw.so.6.5",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libpanelw.so.6.5",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libpython3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libbz2.so.1.0.8",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libssl.so.3",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libsqlite3.so.3.50.4",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libcrypt.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libreadline.so.8.3",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libc++_shared.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_posixshmem.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testbuffer.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_multibytecodec.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/select.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_opcode.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sha3.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_dbm.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libgdbm_compat.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_iso2022.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_json.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_cn.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_elementtree.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_tw.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/grp.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_bisect.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_ssl.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_csv.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_lzma.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "liblzma.so.5",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/ossaudiodev.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_contextvars.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/mmap.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_md5.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_kr.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_asyncio.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_datetime.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/array.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/resource.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/audioop.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/xxsubtype.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/fcntl.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_hashlib.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libcrypto.so.3",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_posixsubprocess.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testcapi.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_xxtestfuzz.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/syslog.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/xxlimited_35.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sha1.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/cmath.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_pickle.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/termios.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/xxlimited.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_curses.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sha2.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_ctypes.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libffi.so",
+        "libdl.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_socket.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_xxsubinterpreters.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testsinglephase.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_zoneinfo.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testimportmultiple.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/math.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_queue.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/unicodedata.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/pyexpat.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libexpat.so.1",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_statistics.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_decimal.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_lsprof.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_ctypes_test.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_curses_panel.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpanelw.so.6",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testclinic.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_multiprocessing.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libandroid-posix-semaphore.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_struct.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_heapq.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/readline.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libreadline.so.8",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_random.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/zlib.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libz.so.1",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sqlite3.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libsqlite3.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_hk.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_crypt.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libcrypt.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/binascii.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libz.so.1",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testinternalcapi.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_blake2.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testmultiphase.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_bz2.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libbz2.so.1.0",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_gdbm.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libgdbm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_xxinterpchannels.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_jp.cpython-312.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libncursesw.so.6.5",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libgdbm.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libpython3.12.so.1.0",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/libcrypto.so.3",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Protocol/_scrypt.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_ed25519.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_curve25519.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_ed448.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_curve448.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_ec_ws.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Util/_strxor.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Util/_cpuid_c.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Math/_modexp.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_MD4.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA384.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_MD2.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_poly1305.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_keccak.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA1.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_BLAKE2b.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA256.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA224.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_BLAKE2s.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA512.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_RIPEMD160.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_ghash_portable.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_MD5.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_arc2.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_eksblowfish.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_blowfish.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ecb.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_cbc.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_cast.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_chacha20.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_ARC4.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_des3.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ctr.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ocb.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_des.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ofb.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_pkcs1_decode.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_cfb.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_aes.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_Salsa20.abi3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/arm64-v8a/libqjs.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libOpenCL.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libSvtAv1Enc.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libandroid-glob.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libandroid.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libaom.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libass.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libiconv.so",
+        "libfribidi.so",
+        "libharfbuzz.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libavcodec.so.61",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libswresample.so.5",
+        "libavutil.so.59",
+        "libvpx.so.11",
+        "libm.so",
+        "libwebpmux.so",
+        "libwebp.so",
+        "libiconv.so",
+        "liblcms2.so",
+        "liblzma.so.5",
+        "libdav1d.so",
+        "libopencore-amrwb.so",
+        "libaom.so",
+        "libmp3lame.so",
+        "libopencore-amrnb.so",
+        "libopus.so",
+        "librav1e.so",
+        "libSvtAv1Enc.so",
+        "libtheoraenc.so",
+        "libtheoradec.so",
+        "libvo-amrwbenc.so.0",
+        "libvorbis.so",
+        "libvorbisenc.so",
+        "libx264.so.164",
+        "libx265.so",
+        "libxvidcore.so.4",
+        "libandroid.so",
+        "libmediandk.so",
+        "libz.so.1",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libavdevice.so.61",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavfilter.so.10",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libavutil.so.59",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libavfilter.so.10",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libswscale.so.8",
+        "libpostproc.so.58",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libswresample.so.5",
+        "libavutil.so.59",
+        "libm.so",
+        "librubberband.so",
+        "libharfbuzz.so",
+        "libfribidi.so",
+        "liblcms2.so",
+        "libvmaf.so",
+        "libass.so",
+        "libvidstab.so",
+        "libzmq.so",
+        "libzimg.so",
+        "libOpenCL.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libavformat.so.61",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavcodec.so.61",
+        "libavutil.so.59",
+        "libm.so",
+        "libxml2.so.16",
+        "libbz2.so.1.0",
+        "libgme.so",
+        "libopenmpt.so",
+        "libbluray.so",
+        "libz.so.1",
+        "libgnutls.so",
+        "libsrt.so",
+        "libssh.so",
+        "libzmq.so",
+        "libiconv.so",
+        "libandroid-glob.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libavutil.so.59",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libOpenCL.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libbluray.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libxml2.so.16",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libudfread.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libbrotlicommon.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libbrotlidec.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libbrotlicommon.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libbz2.so.1.0",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libdav1d.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libfftw3.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libfontconfig.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libfreetype.so",
+        "libexpat.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libfreetype.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libbz2.so.1.0",
+        "libpng16.so",
+        "libbrotlidec.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libfribidi.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libglib-2.0.so.0",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libiconv.so",
+        "libpcre2-8.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libgme.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libgmp.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libgnutls.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libz.so.1",
+        "libidn2.so",
+        "libunistring.so",
+        "libdl.so",
+        "libhogweed.so.6",
+        "libnettle.so.8",
+        "libgmp.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libgraphite2.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libharfbuzz.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libfreetype.so",
+        "libglib-2.0.so.0",
+        "libgraphite2.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libhogweed.so.6",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libnettle.so.8",
+        "libgmp.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libiconv.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libidn2.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libiconv.so",
+        "libunistring.so",
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/liblcms2.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/liblzma.so.5",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libmediandk.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libmp3lame.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libmpg123.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libnettle.so.8",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libogg.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libopencore-amrnb.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libopencore-amrwb.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libopenmpt.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libmpg123.so",
+        "libvorbis.so",
+        "libvorbisfile.so",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libopus.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libpcre2-8.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libpng16.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libpostproc.so.58",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavutil.so.59",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/librav1e.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/librubberband.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libfftw3.so",
+        "libsamplerate.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libsamplerate.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libsharpyuv.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 4096
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libsodium.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libsoxr.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libsrt.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libssh.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libcrypto.so.3",
+        "libz.so.1"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libswresample.so.5",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavutil.so.59",
+        "libm.so",
+        "libsoxr.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libswscale.so.8",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libavutil.so.59",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libtheoradec.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libtheoraenc.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libudfread.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libunistring.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libiconv.so",
+        "libandroid-support.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvidstab.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvmaf.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvo-amrwbenc.so.0",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvorbis.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvorbisenc.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libvorbis.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvorbisfile.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libvorbis.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libvpx.so.11",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libwebp.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libsharpyuv.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 4096
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libwebpmux.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libwebp.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 4096
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libx264.so.164",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libx265.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libandroid-posix-semaphore.so",
+        "libc.so",
+        "libdl.so",
+        "libc++_shared.so",
+        "libm.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libxml2.so.16",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libiconv.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libxvidcore.so.4",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libm.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libz.so.1",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libzimg.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-arm64-v8a.zip!usr/lib/libzmq.so",
+      "abi": "arm64-v8a",
+      "machine": "EM_AARCH64",
+      "bits": 64,
+      "needed": [
+        "libsodium.so",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libandroidx.graphics.path.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libffmpeg.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavdevice.so.61",
+        "libavfilter.so.10",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libpostproc.so.58",
+        "libswresample.so.5",
+        "libswscale.so.8",
+        "libavutil.so.59",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libffprobe.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavdevice.so.61",
+        "libavfilter.so.10",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libpostproc.so.58",
+        "libswresample.so.5",
+        "libswscale.so.8",
+        "libavutil.so.59",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libffi.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libexpat.so.1.11.1",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libgdbm_compat.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libgdbm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/engines-3/loader_attic.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/engines-3/capi.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/liblzma.so.5.8.1",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libandroid-support.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libmenuw.so.6.5",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libandroid-posix-semaphore.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libz.so.1.3.1",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/ossl-modules/legacy.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libhistory.so.8.3",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libformw.so.6.5",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libpanelw.so.6.5",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libpython3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libbz2.so.1.0.8",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libssl.so.3",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libsqlite3.so.3.50.4",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libcrypt.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libreadline.so.8.3",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libc++_shared.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_posixshmem.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testbuffer.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_multibytecodec.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/select.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_opcode.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sha3.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_dbm.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libgdbm_compat.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_iso2022.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_json.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_cn.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_elementtree.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_tw.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/grp.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_bisect.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_ssl.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_csv.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_lzma.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "liblzma.so.5",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/ossaudiodev.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_contextvars.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/mmap.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_md5.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_kr.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_asyncio.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_datetime.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/array.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/resource.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/audioop.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/xxsubtype.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/fcntl.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_hashlib.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libcrypto.so.3",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_posixsubprocess.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testcapi.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_xxtestfuzz.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/syslog.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/xxlimited_35.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sha1.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/cmath.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_pickle.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/termios.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/xxlimited.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_curses.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sha2.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_ctypes.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libffi.so",
+        "libdl.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_socket.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_xxsubinterpreters.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testsinglephase.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_zoneinfo.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testimportmultiple.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/math.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_queue.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/unicodedata.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/pyexpat.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libexpat.so.1",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_statistics.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_decimal.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_lsprof.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_ctypes_test.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_curses_panel.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpanelw.so.6",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testclinic.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_multiprocessing.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libandroid-posix-semaphore.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_struct.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_heapq.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/readline.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libreadline.so.8",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_random.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/zlib.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libz.so.1",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_sqlite3.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libsqlite3.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_hk.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_crypt.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libcrypt.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/binascii.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libz.so.1",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testinternalcapi.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_blake2.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_testmultiphase.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_bz2.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libbz2.so.1.0",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_gdbm.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libgdbm.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_xxinterpchannels.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/lib-dynload/_codecs_jp.cpython-312.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.12.so.1.0",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libncursesw.so.6.5",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libgdbm.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libpython3.12.so.1.0",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libdl.so",
+        "libc.so",
+        "libm.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/libcrypto.so.3",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Protocol/_scrypt.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_ed25519.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_curve25519.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_ed448.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_curve448.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/PublicKey/_ec_ws.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Util/_strxor.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Util/_cpuid_c.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Math/_modexp.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_MD4.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA384.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_MD2.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_poly1305.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_keccak.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA1.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_BLAKE2b.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_ghash_clmul.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA256.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA224.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_BLAKE2s.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_SHA512.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_RIPEMD160.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_ghash_portable.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Hash/_MD5.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_arc2.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_eksblowfish.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_blowfish.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ecb.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_cbc.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_cast.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_aesni.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_chacha20.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_ARC4.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_des3.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ctr.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ocb.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_des.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_ofb.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_pkcs1_decode.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_cfb.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_raw_aes.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libpython.zip.so!usr/lib/python3.12/site-packages/Cryptodome/Cipher/_Salsa20.abi3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "lib/x86_64/libqjs.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libOpenCL.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libSvtAv1Enc.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libandroid-glob.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libandroid.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libaom.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libass.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libiconv.so",
+        "libfribidi.so",
+        "libharfbuzz.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libavcodec.so.61",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libswresample.so.5",
+        "libavutil.so.59",
+        "libvpx.so.11",
+        "libm.so",
+        "libwebpmux.so",
+        "libwebp.so",
+        "libiconv.so",
+        "liblcms2.so",
+        "liblzma.so.5",
+        "libdav1d.so",
+        "libopencore-amrwb.so",
+        "libaom.so",
+        "libmp3lame.so",
+        "libopencore-amrnb.so",
+        "libopus.so",
+        "librav1e.so",
+        "libSvtAv1Enc.so",
+        "libtheoraenc.so",
+        "libtheoradec.so",
+        "libvo-amrwbenc.so.0",
+        "libvorbis.so",
+        "libvorbisenc.so",
+        "libx264.so.164",
+        "libx265.so",
+        "libxvidcore.so.4",
+        "libandroid.so",
+        "libmediandk.so",
+        "libz.so.1",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libavdevice.so.61",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavfilter.so.10",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libavutil.so.59",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libavfilter.so.10",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libswscale.so.8",
+        "libpostproc.so.58",
+        "libavformat.so.61",
+        "libavcodec.so.61",
+        "libswresample.so.5",
+        "libavutil.so.59",
+        "libm.so",
+        "librubberband.so",
+        "libharfbuzz.so",
+        "libfribidi.so",
+        "liblcms2.so",
+        "libvmaf.so",
+        "libass.so",
+        "libvidstab.so",
+        "libzmq.so",
+        "libzimg.so",
+        "libOpenCL.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libavformat.so.61",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavcodec.so.61",
+        "libavutil.so.59",
+        "libm.so",
+        "libxml2.so.16",
+        "libbz2.so.1.0",
+        "libgme.so",
+        "libopenmpt.so",
+        "libbluray.so",
+        "libz.so.1",
+        "libgnutls.so",
+        "libsrt.so",
+        "libssh.so",
+        "libzmq.so",
+        "libiconv.so",
+        "libandroid-glob.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libavutil.so.59",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libOpenCL.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libbluray.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libxml2.so.16",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libudfread.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libbrotlicommon.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libbrotlidec.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libbrotlicommon.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libbz2.so.1.0",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libdav1d.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libfftw3.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libfontconfig.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libfreetype.so",
+        "libexpat.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libfreetype.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libbz2.so.1.0",
+        "libpng16.so",
+        "libbrotlidec.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libfribidi.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libglib-2.0.so.0",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libiconv.so",
+        "libpcre2-8.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libgme.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libgmp.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libgnutls.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libz.so.1",
+        "libidn2.so",
+        "libunistring.so",
+        "libdl.so",
+        "libhogweed.so.6",
+        "libnettle.so.8",
+        "libgmp.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libgraphite2.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libharfbuzz.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libfreetype.so",
+        "libglib-2.0.so.0",
+        "libgraphite2.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libhogweed.so.6",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libnettle.so.8",
+        "libgmp.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libiconv.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libidn2.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libiconv.so",
+        "libunistring.so",
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/liblcms2.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/liblzma.so.5",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libmediandk.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libmp3lame.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libmpg123.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libnettle.so.8",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libogg.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libopencore-amrnb.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libopencore-amrwb.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libopenmpt.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libmpg123.so",
+        "libvorbis.so",
+        "libvorbisfile.so",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libopus.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libpcre2-8.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libpng16.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libpostproc.so.58",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavutil.so.59",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/librav1e.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/librubberband.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libfftw3.so",
+        "libsamplerate.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libsamplerate.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libsharpyuv.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 4096
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libsodium.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libsoxr.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libsrt.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libssh.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libcrypto.so.3",
+        "libz.so.1"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libswresample.so.5",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavutil.so.59",
+        "libm.so",
+        "libsoxr.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libswscale.so.8",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libavutil.so.59",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libtheoradec.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libtheoraenc.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libudfread.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libunistring.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libiconv.so",
+        "libandroid-support.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvidstab.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvmaf.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvo-amrwbenc.so.0",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvorbis.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvorbisenc.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libvorbis.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvorbisfile.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libvorbis.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libvpx.so.11",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libwebp.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libsharpyuv.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 4096
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libwebpmux.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libwebp.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 4096
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libx264.so.164",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libx265.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libandroid-posix-semaphore.so",
+        "libc.so",
+        "libdl.so",
+        "libc++_shared.so",
+        "libm.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libxml2.so.16",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libz.so.1",
+        "libiconv.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libxvidcore.so.4",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so",
+        "libm.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libz.so.1",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libzimg.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    },
+    {
+      "path": "assets/native/ffmpeg-x86_64.zip!usr/lib/libzmq.so",
+      "abi": "x86_64",
+      "machine": "EM_X86_64",
+      "bits": 64,
+      "needed": [
+        "libsodium.so",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "missing": [],
+      "load_alignment": 16384
+    }
+  ],
+  "runtime_scope": "Static ABI/dependency inspection; device execution evidence is separate.",
+  "has_sub_16k_alignment": true
+}
