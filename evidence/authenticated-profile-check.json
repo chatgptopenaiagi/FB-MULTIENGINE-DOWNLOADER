@@ -1,0 +1,32 @@
+{
+  "profile": "https://www.facebook.com/profile.php?id=61595152335606&sk=reels_tab",
+  "engine": "playwright",
+  "session": "explicitly saved in dedicated app; values excluded",
+  "discovery_status": "found",
+  "discovered_count": 73,
+  "coverage": "Visible media links collected over at most 20 scrolls; completeness is not guaranteed.",
+  "scroll_limit": 20,
+  "downloads": [
+    {
+      "id": 2,
+      "engine": "yt-dlp",
+      "status": "complete",
+      "downloaded": 4172286,
+      "attempts": 1,
+      "error": "",
+      "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\authenticated-acceptance\\job-000002-23a2826c0679\\media.mp4",
+      "sha256": "f2891b60e73703ecdb0022cdc25f5a17c5587c09612457892d19a0d740f255b5"
+    },
+    {
+      "id": 3,
+      "engine": "yt-dlp",
+      "status": "complete",
+      "downloaded": 3905806,
+      "attempts": 1,
+      "error": "",
+      "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\authenticated-acceptance\\job-000003-bcfd67239155\\media.mp4",
+      "sha256": "f863e59f2413bb0bef920ddd35480df50fb65b1b3824fe93233d408061a13f38"
+    }
+  ],
+  "elapsed_seconds": 56.276
+}

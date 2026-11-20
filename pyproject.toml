@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fb-multiengine-downloader"
+version = "0.1.0a1"
+description = "Local, persistent media downloads with browser discovery and explicit access boundaries"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["requests>=2.32.3,<3", "yt-dlp>=2026.10.26", "cryptography>=44", "platformdirs>=4", "keyring>=25"]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.50", "selenium>=4.30"]
+desktop = ["PySide6>=6.8,<7"]
+api = ["fastapi>=0.115", "uvicorn>=0.34"]
+dev = ["pytest>=8", "build>=1", "pyinstaller>=6", "pillow", "pywinauto", "httpx", "ruff"]
+
+[project.scripts]
+fbmd = "fbmd.cli:main"
+
+[project.gui-scripts]
+fbmd-gui = "fbmd.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

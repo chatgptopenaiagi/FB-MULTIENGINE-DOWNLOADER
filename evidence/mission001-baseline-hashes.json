@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "08E8A21D011B284893D5F5FB8A3C6616669EEF1AF34351C88DBDF64BFC65DDDB",
+    "Path": "C:\\xampp\\FB-MULTIENGINE-DOWNLOADER\\dist\\mission001\\FBMD-0.1.0-alpha.1-android-arm64-x86_64.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "61066BA782B0F99E0E07A6EE746C512B98AB2AD77F511A5E2B786F8FAF30CA20",
+    "Path": "C:\\xampp\\FB-MULTIENGINE-DOWNLOADER\\dist\\mission001\\fb_multiengine_downloader-0.1.0a1-py3-none-any.whl"
+  }
+]

@@ -1,0 +1,11 @@
+# Distribution notices and source
+
+Original Python/Windows code is MIT. The Android app is GPL-3.0 because it integrates youtubedl-android 0.18.1, whose LICENSE was inspected directly. Its source and build configuration are public in this repository; the release source archive also includes the unmodified upstream 0.18.1 source and build instructions. This app is independent of Meta.
+
+Windows bundles dynamically linked PySide6/Qt and Shiboken, under their applicable LGPL/GPL and third-party terms. The portable package includes license files from the exact installed distributions in THIRD_PARTY_LICENSES. Do not remove these when redistributing. Users may replace the compatible Qt/PySide shared libraries under `_internal`, inspect and modify this application's source, and rebuild with tools/build_windows.ps1. No restriction on reverse engineering for debugging library modifications is added. Qt source: https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/ and PySide source: https://code.qt.io/cgit/pyside/pyside-setup.git/ (tag v6.12.0). Match the exact versions in the bundled dependency inventory.
+
+yt-dlp is distributed under Unlicense with independently licensed components as specified upstream. Playwright and Selenium use Apache-2.0. Requests uses Apache-2.0; cryptography is Apache-2.0/BSD; Python uses PSF terms. Exact package license texts and dependency versions accompany the Windows bundle. The wheel declares dependencies for installation, rather than embedding them.
+
+Android uses youtubedl-android (GPL-3.0), AndroidX/Compose and OkHttp (Apache-2.0), Kotlin (Apache-2.0), Jackson (Apache-2.0), Commons IO (Apache-2.0), and the Python/QuickJS runtimes supplied by the upstream library. Source and upstream build guidance: https://github.com/yausername/youtubedl-android/tree/0.18.1 . The source bundle preserves upstream notices and runtime build instructions. Android assets contain the app and wrapper GPL license; additional licenses are collected from the resolved dependency archives.
+
+FFmpeg is not bundled in either application. Users may select their own installation on Windows/Python. The local verification environment used an FFmpeg build supplied by imageio-ffmpeg; that test tool and generated videos are excluded from product assets.

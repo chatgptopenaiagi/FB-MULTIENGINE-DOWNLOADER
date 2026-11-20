@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-20T10:32:47.098478+00:00",
+  "authenticated": false,
+  "profile": "https://www.facebook.com/profile.php?id=61595152335606&sk=reels_tab",
+  "discovery": {
+    "status": "blocked",
+    "urls": [],
+    "detail": "Login, checkpoint or access challenge detected; use manual browser sign-in and retry."
+  },
+  "videos": [
+    {
+      "kind": "reel",
+      "url": "https://www.facebook.com/reel/1195289147628387",
+      "source": "yt-dlp Facebook extractor public regression example",
+      "downloaded": false,
+      "status": "metadata_accessible",
+      "duration": 9.579,
+      "formats": 4
+    },
+    {
+      "kind": "long_video",
+      "url": "https://www.facebook.com/radiokicksfm/videos/3676516585958356/",
+      "source": "yt-dlp Facebook extractor public regression example",
+      "downloaded": false,
+      "status": "unavailable",
+      "error_type": "DownloadError",
+      "detail": "ERROR: [facebook] 3676516585958356: Cannot parse data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U"
+    }
+  ],
+  "page": {
+    "http": 200,
+    "title": "| Facebook",
+    "body_excerpt": "Log in\nForgotten account?\nThe Flint Mind\u00a0\n2.1K followers \u2022 0 following\nMore\nPosts\nAbout\nReels\nPhotos\nReels\nMore\nThe Flint Mind's reels\n818\n833\n471\n17K\n3.4K\n3.3K\n232\n386\n425\n17K\nSee more on Facebook\nEmail address or phone number\nPassword\nLog in\nForgotten password?\nor\nCreate new account"
+  }
+}

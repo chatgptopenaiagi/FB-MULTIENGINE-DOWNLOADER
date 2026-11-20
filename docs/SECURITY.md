@@ -1,0 +1,15 @@
+# Accounts and security
+
+Windows/Python create a random Fernet master key. On Windows it is protected using current-user DPAPI; other systems require a secure system keyring and were not release-tested. Account labels use separate directories and vaults. Browser storage state, Meta tokens, local API tokens and original queued URLs are encrypted. Database metadata, filenames and redacted source paths remain readable locally. Encryption at rest does not protect against a process already running as the same OS user.
+
+Browser login occurs manually in an isolated visible browser context. No passwords are read by application code. Saving state requires explicit consent. Cookie import requires a user-selected JSON file, account-scoped consent and valid Facebook cookie domains; expired entries are dropped. The original imported file is not deleted. A saved session is reported as unverified until used, not as a proven live login. Forget credentials deletes local stored values; it does not revoke a provider session. Revoke app/session access using Facebook's own settings when needed.
+
+Android stores encrypted values with AES-GCM and a non-exportable Android Keystore key, with app backup disabled. This alpha supports one Android account vault, with explicit Meta token entry and local forget. It does not implement Android browser-cookie import or OAuth login. Tokens have no reliable expiry claim without a successful provider check; authentication failures require manual renewal. No App Secret is stored or shipped.
+
+The local API is off until `fbmd serve` is invoked, binds to 127.0.0.1 and requires a constant-time-checked Bearer token on every endpoint, including OpenAPI. There is no LAN listener, CORS grant or third-party downloader endpoint. `fbmd api-token --reveal` is an explicit secret-disclosure action for the local operator. Do not paste that output into issue reports.
+
+Direct HTTP requests reject credentials in URLs, internal/non-global DNS answers, nonstandard ports, insecure redirect downgrades and invalid schemes. Python pins connections to validated DNS answers with hostname/SNI certificate verification. Android OkHttp validates resolved addresses before connection. Browser/yt-dlp source entry points are restricted to Facebook hosts; their internal fetching is delegated to those trusted libraries and is not a generic URL proxy. No shell command is formed from a URL or title.
+
+Signed URLs and browser state stay out of exports. Tests use dummy markers; no real credentials are sent to test endpoints. Public release scans exclude private state, user media, signing keys, build caches and raw browser/session logs. The Android release signing key remains under `.private/signing`; its password is DPAPI-wrapped and never printed. Keep a secure private backup if maintaining future APK upgrades.
+
+Report a vulnerability without secrets through the repository's security reporting mechanism if available; otherwise open a minimal issue containing only affected version and reproduction with synthetic data. Do not attach browser storage state or tokens.

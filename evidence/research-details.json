@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-11-20",
+  "search_page_browser_result": "Cache miss for all four URLs; equivalent authenticated search queries checked",
+  "searches": [
+    {
+      "query": "facebook",
+      "page": 1,
+      "repositories": [
+        "huandu/facebook",
+        "meta/facebook-ios-sdk",
+        "meta/facebook-android-sdk",
+        "facebookarchive/facebook-php-sdk",
+        "warifp/FacebookToolkit",
+        "Wizcorp/phonegap-facebook-plugin",
+        "hungtraan/FacebookBot",
+        "mobolic/facebook-sdk",
+        "kevinzg/facebook-scraper",
+        "facebookarchive/php-graph-sdk"
+      ]
+    },
+    {
+      "query": "facebook",
+      "page": 2,
+      "repositories": [
+        "IAmBlackHacker/Facebook-BruteForce",
+        "tschellenbach/Django-facebook",
+        "facebookresearch/fairseq",
+        "Schmavery/facebook-chat-api",
+        "jaredhanson/passport-facebook",
+        "meta/folly",
+        "opauth/facebook",
+        "chinoogawa/fbht",
+        "simi/omniauth-facebook",
+        "sindresorhus/caprine"
+      ]
+    },
+    {
+      "query": "facebook download",
+      "page": 1,
+      "repositories": [
+        "vikas5914/Facebook-Video-Downloader",
+        "shawwn/llama-dl",
+        "HoangTran0410/FBMediaDownloader",
+        "theofficialvkr/VKrDownloader",
+        "katariyanikhil/SaveIt",
+        "tam7t/photograbber",
+        "irazasyed/video-downloader",
+        "morganecf/facebook",
+        "duongxthanh/facebook-reels-downloader",
+        "milancodess/universalDownloader"
+      ]
+    },
+    {
+      "query": "facebook download",
+      "page": 2,
+      "repositories": [
+        "MariyaSha/WebscrapingFacebook",
+        "RaghavSood/FBMessageScraper",
+        "a11global/facebook-ads-performance-downloader",
+        "jcontini/facebook-photos-download",
+        "sh13y/Facebook-Video-Download-API",
+        "tonyflo/facebook-download-photos",
+        "NicheOffice/facebook-video-downloader",
+        "Lackoftactics/facebook_data_analyzer",
+        "awesome-yasin/Media-Downloader",
+        "bcat95/Facebook-Video-Downloader"
+      ]
+    }
+  ],
+  "commits": [
+    {
+      "repo": "nanofatdog/fb_reel_dl",
+      "sha": "ef65e319f9b823739953a69a888b5aec5fca59c7",
+      "date": "2026-06-27T12:03:12Z",
+      "message": "Merge pull request #1 from nanofatdog/feat/cookies-from-browser",
+      "url": "https://github.com/nanofatdog/fb_reel_dl/commit/ef65e319f9b823739953a69a888b5aec5fca59c7"
+    },
+    {
+      "repo": "duongxthanh/facebook-reels-downloader",
+      "sha": "dea2f669d80efe743a1930293bbd4892fb270792",
+      "date": "2026-09-11T07:32:21Z",
+      "message": "Add --dated-filenames option (fixes #10)",
+      "url": "https://github.com/duongxthanh/facebook-reels-downloader/commit/dea2f669d80efe743a1930293bbd4892fb270792"
+    },
+    {
+      "repo": "sh13y/Facebook-Video-Download-API",
+      "sha": "15d1fd7b045cc2bd07b45f413efbd157fbc8c1d8",
+      "date": "2025-11-13T16:04:41Z",
+      "message": "docs(readme): fix markdown formatting and syntax errors",
+      "url": "https://github.com/sh13y/Facebook-Video-Download-API/commit/15d1fd7b045cc2bd07b45f413efbd157fbc8c1d8"
+    },
+    {
+      "repo": "kevinzg/facebook-scraper",
+      "sha": "567711fbab3e014504a1d4f33f882c2b29d71584",
+      "date": "2023-10-30T04:53:20Z",
+      "message": "Doc: add comment and reply data model to README.md (#1032)",
+      "url": "https://github.com/kevinzg/facebook-scraper/commit/567711fbab3e014504a1d4f33f882c2b29d71584"
+    },
+    {
+      "repo": "HoangTran0410/FBMediaDownloader",
+      "sha": "1897a0499f3902643bb443e5ccfa939bc17a20eb",
+      "date": "2025-02-27T15:09:35Z",
+      "message": "Update README.md",
+      "url": "https://github.com/HoangTran0410/FBMediaDownloader/commit/1897a0499f3902643bb443e5ccfa939bc17a20eb"
+    },
+    {
+      "repo": "milancodess/universalDownloader",
+      "sha": "cbabe83fe37260359903fbe2934cca075495a886",
+      "date": "2026-11-09T09:40:49Z",
+      "message": "Revert \"Merge pull request #35 from DesmondForward/codex/comprehensive-review\"",
+      "url": "https://github.com/milancodess/universalDownloader/commit/cbabe83fe37260359903fbe2934cca075495a886"
+    },
+    {
+      "repo": "meta/facebook-android-sdk",
+      "sha": "a2dfbf1167d71a07d9ba568ac0cad290098c527b",
+      "date": "2026-11-17T02:54:24Z",
+      "message": "Honor refreshed MetadataBasic without resetting the SDK process",
+      "url": "https://github.com/meta/facebook-android-sdk/commit/a2dfbf1167d71a07d9ba568ac0cad290098c527b"
+    },
+    {
+      "repo": "yausername/youtubedl-android",
+      "sha": "d725d5c9a18c3a99a13ee0308bf78275dc310760",
+      "date": "2025-11-16T18:39:19Z",
+      "message": "Bump version 0.18.1",
+      "url": "https://github.com/yausername/youtubedl-android/commit/d725d5c9a18c3a99a13ee0308bf78275dc310760"
+    },
+    {
+      "repo": "yt-dlp/yt-dlp",
+      "sha": "4adbf698d9a7d79d67a7d11669d04efde3722951",
+      "date": "2026-11-19T23:59:04Z",
+      "message": "[docs] Add new site support policy (#18086)",
+      "url": "https://github.com/yt-dlp/yt-dlp/commit/4adbf698d9a7d79d67a7d11669d04efde3722951"
+    }
+  ]
+}

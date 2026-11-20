@@ -1,0 +1,11 @@
+FB MultiEngine Downloader for Android
+Copyright (c) 2026 chatgptopenaiagi
+
+The Android application is distributed under GPL-3.0, including its integration
+with youtubedl-android 0.18.1 (GPL-3.0). See LICENSE. Python/Windows application
+code outside this directory remains under the repository's MIT license.
+
+The release includes corresponding application and youtubedl-android source.
+The native Python, yt-dlp, QuickJS and Android/Java dependencies retain their
+own licenses. See docs/THIRD_PARTY.md and the upstream source bundle.
+No FFmpeg Android library is included.

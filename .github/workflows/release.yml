@@ -1,0 +1,23 @@
+name: Publish independently verified draft
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing draft tag with tested assets and verification.json
+        required: true
+        type: string
+permissions:
+  contents: write
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify draft assets, then publish prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: python tools/publish_verified_release.py
