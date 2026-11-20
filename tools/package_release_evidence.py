@@ -13,9 +13,9 @@ for name in ('portable-isolation.json','portable-archive-verification.json','ins
 assert read('android-release-native.json')['status']=='READY'
 assert not read('windows-native-dependencies.json')['errors']
 assert read('wheel-verification.json')['record']['status']=='complete'
-for filename,report in [('FBMD-0.2.0-alpha.1-windows-x64.zip','portable-archive-verification.json'),('FBMD-0.2.0-alpha.1-windows-x64-setup.exe','installer-verification.json'),('FBMD-0.2.0-alpha.1-android-arm64-x86_64.apk','android-release-native.json')]:
+for filename,report,key in [('FBMD-0.2.0-alpha.1-windows-x64.zip','portable-archive-verification.json','sha256'),('FBMD-0.2.0-alpha.1-windows-x64-setup.exe','installer-verification.json','installer_sha256'),('FBMD-0.2.0-alpha.1-android-arm64-x86_64.apk','android-release-native.json','release_apk_sha256')]:
     with (release/filename).open('rb') as f:actual=hashlib.file_digest(f,'sha256').hexdigest()
-    evidence=read(report);expected=evidence.get('sha256',evidence.get('installer_sha256',evidence.get('release_apk_sha256')))
+    evidence=read(report);expected=evidence[key]
     assert actual==expected,filename
 evidence_file=release/'FBMD-0.2.0-alpha.1-evidence.zip'
 with zipfile.ZipFile(evidence_file,'x',compression=zipfile.ZIP_DEFLATED) as archive:
