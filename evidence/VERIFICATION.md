@@ -10,7 +10,7 @@ Test date: 20 November 2026. This is a verified **partial alpha**, with the limi
 | GUI | All ten pages rendered by the packaged Qt application; previous real UI enqueue/start/restart acceptance retained | windows-integrated-engines.png, windows-integrated-settings.png |
 | Bundled browsers | Packaged Playwright and Selenium each discovered 10 visible links from the supplied profile using the explicitly saved app session | packaged-playwright-discovery.json, packaged-selenium-discovery.json |
 | Windows installer | Silent install, Start Menu entry, GUI/media tests, reinstall, reopen/deduplication and uninstall preserving database/media | installer-verification.json |
-| Windows native imports | 165 x64 PE binaries, no unresolved imports in the package/Windows dependency check | windows-native-dependencies.json |
+| Windows native imports | 155 x64 PE binaries, no unresolved imports in the package/Windows dependency check | windows-native-dependencies.json |
 | Android instrumentation | Local FFmpeg merge/decode, HTTP pause/range resume, embedded yt-dlp, duplicate prevention, 403 stop, vault encryption and persistence | android-instrumented-tests.xml |
 | Signed Android release | Local Reel download, SAF export, reopen/reinstall duplicate check, startup FFmpeg self-test | android-release-media.json, android-native-engines.png |
 | Android ABI/import inspection | 438 ELF objects, ARM64 and x86_64, no missing DT_NEEDED dependencies | android-native-dependencies.json |

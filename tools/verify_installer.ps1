@@ -1,6 +1,6 @@
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
-$verify='F:\AILAB\FB-MULTIENGINE-DOWNLOADER\verification-20261120-mission002\installer-test-release'
+$verify='F:\AILAB\FB-MULTIENGINE-DOWNLOADER\verification-20261120-mission002\installer-final-pruned'
 if (Test-Path -LiteralPath $verify) { throw 'Existing installer evidence must be preserved; choose a fresh directory' }
 New-Item -ItemType Directory $verify | Out-Null
 $program=Join-Path $verify 'program'

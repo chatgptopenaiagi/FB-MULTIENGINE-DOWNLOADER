@@ -10,6 +10,10 @@ root = Path(__file__).resolve().parents[1]
 dest = root / ".private/corresponding-sources"
 dest.mkdir(parents=True, exist_ok=True)
 sources = {
+    "qtbase-6.12.0.tar.xz": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz",
+    "qtsvg-6.12.0.tar.xz": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtsvg-everywhere-src-6.12.0.tar.xz",
+    "pyside-6.12.0-source.tar.gz": "https://codeload.github.com/pyside/pyside-setup/tar.gz/refs/tags/v6.12.0",
+    "Python-3.13.0.tar.xz": "https://www.python.org/ftp/python/3.13.0/Python-3.13.0.tar.xz",
     "FFmpeg-8c7ef49002-windows-source.tar.gz": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/8c7ef49002",
     "FFmpeg-Builds-7f2a6b1050d3-source.tar.gz": "https://codeload.github.com/FFmpeg-Builds/FFmpeg-Builds/tar.gz/7f2a6b1050d302144de8366afa37a75e46f326aa",
     "ffmpeg-7.1.1.tar.xz": "https://ffmpeg.org/releases/ffmpeg-7.1.1.tar.xz",

@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+import zipfile
 
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'src'))
@@ -25,7 +26,20 @@ for name in names:
     if path.suffix.lower() in ('.jks','.keystore','.enc','.sqlite','.sqlite3','.db','.dpapi') or any(p in path.parts for p in ('.private','.toolchain','.venv')):errors.append({'file':name,'reason':'forbidden private artifact'})
     data=path.read_bytes()
     if any(re.search(p,data) for p in patterns) or any(value in data for value in values):errors.append({'file':name,'reason':'secret signature or saved-session match'})
-result={'status':'PASS' if not errors else 'FAIL','tracked_files':len([n for n in names if n]),'known_session_values_checked':len(values),'errors':errors,'scope':'Tracked bytes and known saved-session values; screenshots additionally reviewed visually. No secret values are printed.'}
+product_files=0
+if '--products' in sys.argv:
+    for path in (root/'dist/windows/FBMD').rglob('*'):
+        if not path.is_file():continue
+        product_files+=1
+        if path.suffix.lower() in ('.jks','.keystore','.enc','.sqlite','.sqlite3','.db','.dpapi') or any(v in path.read_bytes() for v in values):errors.append({'file':str(path.relative_to(root)),'reason':'private artifact or saved-session match'})
+    for path in (root/'dist/release').iterdir():
+        if path.suffix not in ('.apk','.whl'):continue
+        with zipfile.ZipFile(path) as package:
+            for name in package.namelist():
+                if name.endswith('/'):continue
+                product_files+=1
+                if any(v in package.read(name) for v in values):errors.append({'file':path.name+'!'+name,'reason':'saved-session match'})
+result={'status':'PASS' if not errors else 'FAIL','tracked_files':len([n for n in names if n]),'product_files_checked':product_files,'known_session_values_checked':len(values),'errors':errors,'scope':'Tracked secret signatures; tracked and optional product bytes checked against known saved-session values. Screenshots additionally reviewed visually. No secret values are printed.'}
 (root/'evidence/public-scan.json').write_text(json.dumps(result,indent=2))
 print(json.dumps(result,indent=2))
 raise SystemExit(bool(errors))

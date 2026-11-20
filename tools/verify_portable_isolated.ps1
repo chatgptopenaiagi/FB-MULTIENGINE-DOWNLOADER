@@ -1,6 +1,6 @@
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
-$verify='F:\AILAB\FB-MULTIENGINE-DOWNLOADER\verification-20261120-mission002'
+$verify='F:\AILAB\FB-MULTIENGINE-DOWNLOADER\verification-20261120-mission002\final-isolation'
 if (Test-Path -LiteralPath (Join-Path $verify 'portable')) { throw 'Use a fresh verification directory; existing results preserved' }
 New-Item -ItemType Directory -Force $verify | Out-Null
 Copy-Item -LiteralPath (Join-Path $root 'dist/windows/FBMD') -Destination (Join-Path $verify 'portable') -Recurse

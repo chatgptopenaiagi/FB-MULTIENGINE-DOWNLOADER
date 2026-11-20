@@ -7,6 +7,7 @@ try {
     if (-not (Test-Path -LiteralPath .toolchain/playwright)) { throw 'Provision bundled Chromium first (PLAYWRIGHT_BROWSERS_PATH=.toolchain/playwright)' }
     & .venv/Scripts/python.exe -m PyInstaller --noconfirm --clean --onedir --windowed --name FBMD --paths src --collect-all yt_dlp --collect-all playwright --collect-all selenium --copy-metadata requests --copy-metadata cryptography --copy-metadata platformdirs --copy-metadata yt-dlp --copy-metadata playwright --copy-metadata selenium --copy-metadata PySide6 --exclude-module tkinter --exclude-module PySide6.QtWebEngineCore --exclude-module PySide6.QtWebEngineWidgets --exclude-module PySide6.QtQml --distpath dist/windows --workpath build/windows --specpath build tools/desktop_entry.py
     if ($LASTEXITCODE -ne 0) { throw 'PyInstaller failed' }
+    & ./tools/prune_qt.ps1
     # The matching bundled ChromeDriver is used directly; omit unused manager binaries.
     $packageRoot=[System.IO.Path]::GetFullPath((Join-Path $PWD 'dist/windows/FBMD'))
     foreach ($platformName in @('windows','linux','macos')) {

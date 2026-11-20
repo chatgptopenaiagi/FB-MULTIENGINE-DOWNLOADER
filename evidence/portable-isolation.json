@@ -2,18 +2,18 @@
   "status": "PASS",
   "source_venv_physically_unavailable": true,
   "path_used": "C:\\WINDOWS\\System32",
-  "application": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\FBMD.exe",
+  "application": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable\\FBMD.exe",
   "executable_sha256": "72618546f09e72fe9c2587db8a88e5377a4f63017c2525d3e2d258817e5825a2",
   "checks": {
     "engines": {
-      "application_directory": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable",
+      "application_directory": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable",
       "frozen": true,
       "engines": [
         {
           "name": "FFmpeg / FFprobe",
           "source": "bundled",
-          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffmpeg.exe",
-          "ffprobe_path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffprobe.exe",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable\\engines\\ffmpeg\\ffmpeg.exe",
+          "ffprobe_path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable\\engines\\ffmpeg\\ffprobe.exe",
           "status": "READY",
           "version": "ffmpeg version n9.0.2-58-g8c7ef49002-20261119 Copyright (c) 2000-2026 the FFmpeg developers",
           "architecture": "x64",
@@ -84,14 +84,14 @@
     "native": {
       "status": "PASS",
       "registry": {
-        "application_directory": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable",
+        "application_directory": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable",
         "frozen": true,
         "engines": [
           {
             "name": "FFmpeg / FFprobe",
             "source": "bundled",
-            "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffmpeg.exe",
-            "ffprobe_path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\portable\\engines\\ffmpeg\\ffprobe.exe",
+            "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable\\engines\\ffmpeg\\ffmpeg.exe",
+            "ffprobe_path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\portable\\engines\\ffmpeg\\ffprobe.exe",
             "status": "READY",
             "version": "ffmpeg version n9.0.2-58-g8c7ef49002-20261119 Copyright (c) 2000-2026 the FFmpeg developers",
             "architecture": "x64",
@@ -264,22 +264,22 @@
       ],
       "outputs": [
         {
-          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\native-fixture\\merged.mp4",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\native-fixture\\merged.mp4",
           "bytes": 96679,
           "sha256": "a08410a3712223f682efc1640c90b072b8db1b1854616e763ab551c885f035ab"
         },
         {
-          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\native-fixture\\hls-remux.mp4",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\native-fixture\\hls-remux.mp4",
           "bytes": 97615,
           "sha256": "11aea966d6181302d70e0c9e8533b7a5f4c5b6139942355a4ab32f6473bbc88e"
         },
         {
-          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\native-fixture\\selected.mp4",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\native-fixture\\selected.mp4",
           "bytes": 96679,
           "sha256": "a08410a3712223f682efc1640c90b072b8db1b1854616e763ab551c885f035ab"
         }
       ],
-      "elapsed_seconds": 2.587
+      "elapsed_seconds": 2.487
     },
     "gui": {
       "status": "PASS",
@@ -298,15 +298,15 @@
           "total": 622802,
           "attempts": 1,
           "error": "",
-          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\media\\job-000001-75c324103155\\media.mp4",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\media\\job-000001-75c324103155\\media.mp4",
           "sha256": "cc12fd22535bfa0d5f224e105c1c4abf3525cc4cf33501d1f7ed6c5c469123a2",
-          "created": 1795175332.8983722,
-          "updated": 1795175339.0511813,
+          "created": 1795177985.6745923,
+          "updated": 1795177991.5760689,
           "quality": "best",
           "title": "9.9K views · 339 reactions | When your trying to help your partner out with an arrest and #FAAFO games begin. Let the “Slapathon” commence!! 👊👋 | Beast Camp Training",
           "resolution": "",
           "content_type": "video/mp4",
-          "rate": 281661.780392693,
+          "rate": 298058.7564023015,
           "media_info": "{\"format\": \"mov,mp4,m4a,3gp,3g2,mj2\", \"duration\": 9.566667, \"streams\": [{\"index\": 0, \"codec_type\": \"video\", \"codec_name\": \"h264\", \"width\": 480, \"height\": 848, \"sample_rate\": null, \"channels\": null, \"start_time\": \"0.000000\", \"duration\": \"9.566667\"}]}"
         }
       ]
@@ -322,15 +322,15 @@
           "total": 622802,
           "attempts": 1,
           "error": "",
-          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\media\\job-000001-75c324103155\\media.mp4",
+          "path": "F:\\AILAB\\FB-MULTIENGINE-DOWNLOADER\\verification-20261120-mission002\\final-isolation\\media\\job-000001-75c324103155\\media.mp4",
           "sha256": "cc12fd22535bfa0d5f224e105c1c4abf3525cc4cf33501d1f7ed6c5c469123a2",
-          "created": 1795175332.8983722,
-          "updated": 1795175339.0511813,
+          "created": 1795177985.6745923,
+          "updated": 1795177991.5760689,
           "quality": "best",
           "title": "9.9K views · 339 reactions | When your trying to help your partner out with an arrest and #FAAFO games begin. Let the “Slapathon” commence!! 👊👋 | Beast Camp Training",
           "resolution": "",
           "content_type": "video/mp4",
-          "rate": 281661.780392693,
+          "rate": 298058.7564023015,
           "media_info": "{\"format\": \"mov,mp4,m4a,3gp,3g2,mj2\", \"duration\": 9.566667, \"streams\": [{\"index\": 0, \"codec_type\": \"video\", \"codec_name\": \"h264\", \"width\": 480, \"height\": 848, \"sample_rate\": null, \"channels\": null, \"start_time\": \"0.000000\", \"duration\": \"9.566667\"}]}"
         }
       ]

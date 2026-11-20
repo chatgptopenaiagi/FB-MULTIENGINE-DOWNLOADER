@@ -1865,11 +1865,6 @@
     "sha256": "dd42bdcd229744a9515db82ba9a802c74b6589cc508c3e85fb30f06ba24b9da6"
   },
   {
-    "path": "_internal/PySide6/plugins/imageformats/qpdf.dll",
-    "bytes": 42296,
-    "sha256": "0625e11f7ed136d4556cdc248527f26ac23eca93fa77764e9b64535557613efc"
-  },
-  {
     "path": "_internal/PySide6/plugins/imageformats/qsvg.dll",
     "bytes": 40248,
     "sha256": "b63f97ed0ae60aa5bc332c37e429c1f31154e1eee358352b2c49598c5269843b"
@@ -1898,11 +1893,6 @@
     "path": "_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll",
     "bytes": 79160,
     "sha256": "2bd047476183c76004221fb44adb7ada9b4b6ce5c2929d63ff67a5305b430f1a"
-  },
-  {
-    "path": "_internal/PySide6/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll",
-    "bytes": 36664,
-    "sha256": "bbf479e6380061699e734a32f4fe0b6fc8bc2de007ae53b0206e6e36abf1e3e2"
   },
   {
     "path": "_internal/PySide6/plugins/platforms/qdirect2d.dll",
@@ -1935,11 +1925,6 @@
     "sha256": "87574d467b6f9640a15e37bf4183179c6a7cefc4dc84346b8f4cffb989cf1e12"
   },
   {
-    "path": "_internal/PySide6/plugins/tls/qopensslbackend.dll",
-    "bytes": 317752,
-    "sha256": "94b3492bc4087da2818e2749a5a03f7d810611b2e3648bd8d580ad087363046f"
-  },
-  {
     "path": "_internal/PySide6/plugins/tls/qschannelbackend.dll",
     "bytes": 249144,
     "sha256": "2915a86a2531e65fd4905f0cc1c8dc353772a4f52aeda5100725dd9249db54d1"
@@ -1970,44 +1955,9 @@
     "sha256": "788b743bfaca141ca83e28c161646d51de92a71adf7a86c653c36fdea5a9bf5b"
   },
   {
-    "path": "_internal/PySide6/Qt6Pdf.dll",
-    "bytes": 4623672,
-    "sha256": "5caf5744e017df85455c5c7e11028c5ec2765633a7ca64a11d7b64d127f6c4cc"
-  },
-  {
-    "path": "_internal/PySide6/Qt6Qml.dll",
-    "bytes": 5390136,
-    "sha256": "0be9fc8ad3b7d2d19d0ed49a9026f02b78c4498ab2f53ca574d34a0740d7888a"
-  },
-  {
-    "path": "_internal/PySide6/Qt6QmlMeta.dll",
-    "bytes": 158520,
-    "sha256": "6edac38b27868e69c8ae15b08145688b02358426d5d652a0d2865ca4476fde0a"
-  },
-  {
-    "path": "_internal/PySide6/Qt6QmlModels.dll",
-    "bytes": 1021752,
-    "sha256": "78e79eee241326da0754e29f4b372dee9ff7b75f3484099504c4750ac1f519e6"
-  },
-  {
-    "path": "_internal/PySide6/Qt6QmlWorkerScript.dll",
-    "bytes": 80184,
-    "sha256": "475456ab8f1e9570f5f5f496b0941445a34fca4bbac0dd07ea84ee5ea15e7194"
-  },
-  {
-    "path": "_internal/PySide6/Qt6Quick.dll",
-    "bytes": 6752568,
-    "sha256": "3c93688f36ad4e5c5c2fd73587f50ee94e1dfa4891805bbe5d6d0c031450faa2"
-  },
-  {
     "path": "_internal/PySide6/Qt6Svg.dll",
     "bytes": 608056,
     "sha256": "8f1de5b28aab1eedb415c751c81f9cfaa2804242868c0ceea5f3fdb4b2babca4"
-  },
-  {
-    "path": "_internal/PySide6/Qt6VirtualKeyboard.dll",
-    "bytes": 424248,
-    "sha256": "973369caa6d13fa08f6b1cd57004dcf4f137f8ef98ec6876ad07ba690ee0b9a3"
   },
   {
     "path": "_internal/PySide6/Qt6Widgets.dll",
@@ -9901,8 +9851,13 @@
   },
   {
     "path": "documentation/NATIVE_ENGINES.md",
-    "bytes": 3901,
-    "sha256": "408c1db9b80ce58cccac4dc53a3d0b766137ba8138cea334f2309e0f8e13837a"
+    "bytes": 4160,
+    "sha256": "dd64ac0c9d33d95e76ca05e0a7dbd3e3bc6924346e351288c9ee90e89ac1d813"
+  },
+  {
+    "path": "documentation/RELEASE-0.2.0-alpha.1.md",
+    "bytes": 4150,
+    "sha256": "69924c84a37195b5117e9d65a20af591e4977cfb7978a906dc37239ed1c5b3dc"
   },
   {
     "path": "documentation/SECURITY.md",
@@ -11701,8 +11656,8 @@
   },
   {
     "path": "evidence/VERIFICATION.md",
-    "bytes": 5578,
-    "sha256": "d5be31eb17cf0a30c92e611be50fef8d0ce39a201182f7abd5456802090dd6ef"
+    "bytes": 5615,
+    "sha256": "293a94bfbc4f226ea0ff642b016291a4f0f16fdbff460e13a0a10449108ab192"
   },
   {
     "path": "FBMD.exe",

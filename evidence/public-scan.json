@@ -1,7 +1,8 @@
 {
   "status": "PASS",
-  "tracked_files": 124,
+  "tracked_files": 131,
+  "product_files_checked": 2945,
   "known_session_values_checked": 4,
   "errors": [],
-  "scope": "Tracked bytes and known saved-session values; screenshots additionally reviewed visually. No secret values are printed."
+  "scope": "Tracked secret signatures; tracked and optional product bytes checked against known saved-session values. Screenshots additionally reviewed visually. No secret values are printed."
 }
